@@ -14,7 +14,8 @@ colors: #ffffff, #fed111, #4db7aa, #d96f16, #DD90A2;
 /*******************************************/
 
 * {
-     box-sizing: border-box;
+  font-family: 'Karma', 'Roboto', 'Opens Sans', sans-serif;
+  box-sizing: border-box;
 }
 
 /******************************************
