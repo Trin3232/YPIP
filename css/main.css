@@ -7,13 +7,15 @@ Author: Trin3232
 /******************************************
 /* COLOURS
 /*******************************************/
-colors: #ffffff, #fed111, #4db7aa, #d96f16, #DD90A2;
+ #ffffff, #fed111, #4db7aa, #d96f16, #DD90A2; #80867c;
 
 /******************************************
-/* SENSIBLE DEFAULTS
+/* DEFAULTS
 /*******************************************/
 
 * {
+  margin: 0;
+  padding: 0;
   font-family: 'Karma', 'Roboto', 'Opens Sans', sans-serif;
   box-sizing: border-box;
 }
@@ -23,6 +25,7 @@ colors: #ffffff, #fed111, #4db7aa, #d96f16, #DD90A2;
 /*******************************************/
 
 /* add type styles here */
+
 
 
 /******************************************
@@ -38,12 +41,13 @@ colors: #ffffff, #fed111, #4db7aa, #d96f16, #DD90A2;
 
 }
 .site-header h1 {
-	color:red;
+	color: #4db7aa;
 }
 .site-content {
 
 }
 .site-footer {
+  color: #80867c;
 
 }
 
