@@ -46,10 +46,6 @@ Author: Trin3232
 .site-content {
 
 }
-.site-footer {
-  color: #80867c;
-
-}
 
 /******************************************
 /* HELPER CLASSES
@@ -72,6 +68,36 @@ Author: Trin3232
      display: block;
 }
 
+footer {
+  padding: 5px;
+  margin-top: 3px;
+  color:#ffffff;
+  background-color: #4db7aa;
+  z-index: 1;
+  opacity: 0.72;
+  text-align:center;
+  font-size:18.5px;
+  position: sticky;
+}
+
+/* Why isnt the link color taking?*/
+
+#link-k a:link {
+    color: #ffffff, !important;
+}
+
+/* visited link| mouse over link */
+a:visited:hover {
+    color: #fed111;
+}
+
+.fa-github {
+  color: #ffffff;
+}
+
+i:hover {
+  color: #fed111;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
