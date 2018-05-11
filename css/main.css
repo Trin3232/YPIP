@@ -13,68 +13,123 @@ Author: Trin3232
 /* DEFAULTS
 /*******************************************/
 
-* {
+body {
+  font-family: 'Karma', 'Roboto', 'Opens Sans', sans-serif;
   margin: 0;
   padding: 0;
-  font-family: 'Karma', 'Roboto', 'Opens Sans', sans-serif;
+  color:#ffffff;
+  font-size:15px;
+  line-height: 1.8;
   box-sizing: border-box;
 }
-
-/******************************************
-/* TYPOGRAPHY
-/*******************************************/
-
-/* add type styles here */
-
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
-.site-container {
-	max-width: 960px;
-	margin: 0 auto;
+/*Global */
+
+.container {
+  width: 93%;
+  margin:auto;
+  overflow:hidden;
 }
 
-.site-header {
+/* Header */
 
+header #ypip-logo-img {
+  width: 457px;
+  height: 82px;
+  border:5px solid #80867c;
+  border-radius: 27px;
+  margin:0;
 }
-.site-header h1 {
-	color: #4db7aa;
-}
-.site-content {
 
+header {
+  background:#4db7aa;
+  padding-top:30px;
+  padding-bottom: 18px;
+  min-height:70px;
+  border-bottom:#80867c 6px solid;
 }
+
+header a {
+  color:#ffffff;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:16px;
+}
+
+header li {
+  float:left;
+  display:inline;
+  padding:0 10px;
+}
+
+header nav {
+  float:right;
+  margin-top:18px;
+  /* position: -webkit-sticky;
+  position: sticky; */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+header .current a{
+  color:#d96f16;
+  font-weight:bold;
+}
+
+/*Other code  */
+
+header nav a {
+	display:block;
+	padding:0 10px;
+	color:#FFF;
+	font-size:16px;
+	line-height: 55px;
+	text-decoration:none;
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute;
+	top: 50px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+
 
 /******************************************
-/* HELPER CLASSES
+/*FOOTER CLASSES*/
 /*******************************************/
 
-/* Clearfix */
-.clearfix:before,
-.clearfix:after {
-     content: " ";
-     display: table;
-}
-.clearfix:after {
-     clear:both;
-}
-
-.is-hidden {
-     display: none;
-}
-.is-visible {
-     display: block;
-}
-
 footer {
-  padding: 5px;
+  padding: 20px;
   margin-top: 3px;
   color:#ffffff;
   background-color: #4db7aa;
   z-index: 1;
-  opacity: 0.72;
+  /* opacity: 0.72; */
   text-align:center;
   font-size:18.5px;
   position: sticky;
