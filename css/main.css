@@ -7,7 +7,7 @@ Author: Trin3232
 /******************************************
 /* COLOURS
 /*******************************************/
- #ffffff, #fed111, #4db7aa, #d96f16, #DD90A2; #80867c; #bae3de;
+ #ffffff, #fed111, #4db7aa, #d96f16, #DD90A2; #80867c; #bae3de; #888
 
 /******************************************
 /* DEFAULTS
@@ -17,9 +17,9 @@ body {
   font-family: 'Karma', 'Roboto', 'Opens Sans', sans-serif;
   margin: 0;
   padding: 0;
-  color:#ffffff;
+  color:#80867c;
   font-size:15px;
-  line-height: 1.8;
+  line-height: 1.5em;
   box-sizing: border-box;
 }
 
@@ -38,7 +38,7 @@ body {
 /* Header */
 
 header #ypip-logo-img {
-  width: 457px;
+  width: 365px;
   height: 82px;
   border:5px solid #80867c;
   border-radius: 27px;
@@ -53,71 +53,86 @@ header {
   border-bottom:#80867c 6px solid;
 }
 
-header a {
-  color:#ffffff;
-  text-decoration:none;
+/* NAVBAR */
+
+nav {
   text-transform:uppercase;
-  font-size:16px;
+  font-size:16px
+  float: right;
+	margin: 0px;
 }
 
-header li {
-  float:left;
-  display:inline;
-  padding:0 10px;
-}
-
-header nav {
-  float:right;
-  margin-top:18px;
-  /* position: -webkit-sticky;
-  position: sticky; */
-}
-
-ul {
-  list-style-type: none;
+nav ul {
+	padding: 0;
   margin: 0;
-  padding: 0;
-  position: relative;
-  overflow: hidden;
+	list-style: none;
+	position: relative;
 }
 
-header .current a{
-  color:#d96f16;
-  font-weight:bold;
+nav li {
+      float: left;
+      display:inline;
+      padding:0 10px;
+      list-style:none;
+}
+nav ul li {
+	display:inline-block;
 }
 
-/*Other code  */
-
-header nav a {
+nav a {
 	display:block;
 	padding:0 10px;
 	color:#FFF;
-	font-size:16px;
-	line-height: 55px;
+	font-size:18px;
+	line-height: 60px;
 	text-decoration:none;
 }
 
+#navbar li.current a, #navbar a:hover{
+  color:#888;
+  border-bottom: 3px solid #888;
+  padding-bottom: 3px;
+}
+
 /* Hide Dropdowns by Default */
+
 nav ul ul {
 	display: none;
 	position: absolute;
-	top: 50px; /* the height of the main nav */
+	top: 30px; /* the height of the main nav */
 }
 
 /* Display Dropdowns on Hover */
+
 nav ul li:hover > ul {
 	display:inherit;
 }
 
-/* Fisrt Tier Dropdown */
+/* First Tier Dropdown */
+
 nav ul ul li {
-	width:170px;
+	width:190px;
 	float:none;
 	display:list-item;
 	position: relative;
 }
 
+/* Showcase */
 
+#showcase{
+  background:url('../images/Double%20Bed.jpg') no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  border-bottom:#80867c 6px solid;
+  margin-bottom:30px;
+}
+
+#showcase h1{
+  margin-top:50px;
+  font-size:50px;
+  text-align: center;
+  margin-bottom:10px;
+}
 
 /******************************************
 /*FOOTER CLASSES*/
@@ -141,13 +156,15 @@ footer {
     color: #ffffff, !important;
 }
 
-/* visited link| mouse over link */
-a:visited:hover {
-    color: #fed111;
-}
-
 .fa-github {
   color: #ffffff;
+}
+
+
+/* visited link| mouse over link in footer */
+
+a:visited:hover {
+    color: #fed111;
 }
 
 i:hover {
