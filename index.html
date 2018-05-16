@@ -19,35 +19,31 @@
 	<body>
 		<header>
 			<div class="container">
-				<!-- <div id="ypip-logo-img"> -->
-				<img id="ypip-logo-img" src="./Images/Logos/ypip-logo-2.jpg" alt="ypip company logo">
-				<!-- </div> -->
+				<!-- <img id="ypip-logo-img" src="./Images/Logos/ypip-logo-2.jpg" alt="ypip company logo"> -->
 				<!-- Right Navigation Bar -->
-				<nav  id="navbar">
-					<ul>
-						<li class="current"><a href="index.html">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Accommodation</a>
-							<!--  DropDown Menu -->
-							<ul>
-								<li><a href="#">Leighton Buzzard</a></li>
-								<li><a href="#">Glasgow</a></li>
-								<li><a href="#">Edinburgh</a></li>
-							</ul>
-						</li>
-						<li><a href="#">Services</a></li>
-						<li><a href="#">Contact Us</a></li>
-					</ul>
+				<nav class="navbar">
+					<a href="#" id="contact-tab">Contact Us</a>
+          <a href="#" id="services-tab">Services</a>
+          <div class="dropdown">
+					<button class="dropbtn" id="accomod-tab">Accommodation</button>
+          <div class="dropdown-content">
+			       <a href="#" class="l-b-pink">Leighton Buzzard</a>
+			       <a href="#" class="g-turq">Glasgow</a>
+			       <a href="#" class="e-yellow">Edinburgh</a>
+			     </div>
+				   </div>
+				   <a href="#" id="about-tab">About</a>
+				   <a href="#" id="home-tab">Home</a>
 				</nav>
-			</div>
 		</header>
-		<main class="site-content "> <!-- Site Content -->
-			<section id="showcase">
-				<div class="container">
-					<h1>Welcome to Your Partner In Property</h1>
-				</div>
-			</section>
-		</main>
+				<main class="site-content "> <!-- Site Content -->
+					<section id="showcase">
+						<div class="container">
+							<h1>Welcome to Your Partner In Property</h1>
+						</div>
+					</section>
+				</main>
+			</div>
 		<footer>
 			<p id="comp-intel-prop"> Copyright &copy;
 				<span id="update-year-text"></span>
