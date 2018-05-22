@@ -84,7 +84,7 @@ header {
     font-size: 19px;
     border: none;
     outline: none;
-    color: white;
+    color: #ffffff;
     padding: 14px 14px;
     background-color: inherit;
     font-family: inherit;
@@ -143,21 +143,26 @@ a.e-grey:hover {
 /* Showcase */
 
 #showcase {
-  /* background:url('../images/Double%20Bed.jpg') no-repeat center center; */
-  background-color: #fed111;
+  max-width: 100%;
+  height: auto;
+  background:url('../Images/Glasgow/IMG_0732.jpg') no-repeat center center;
   background-size: cover;
-  background-position: center;
   padding-top: 111px;
   margin-bottom:-3px;
   border-bottom:10px solid #80867c;
 }
 
 #showcase h1{
-  color:#ffffff;
-  margin-top:57px;
-  font-size:50px;
+  color: #ffffff;
+  margin-top: 177px;
+  font-size: 62px;
   text-align: center;
-  margin-bottom:240px;
+  margin-bottom:218px;
+}
+
+.jk1 {
+  max-width: 100%;
+  height: auto;
 }
 
 /******************************************
