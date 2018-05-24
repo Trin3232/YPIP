@@ -95,8 +95,9 @@ header {
   color: #fed111;
 }
 
-/* .navbar a:hover, .dropdown:hover, .dropbtn {
-    background-color: #4db7aa;
+/* .current a .dropbtn:hover {
+  border-bottom: 3px solid #fed111;
+  padding-bottom:3px;
 } */
 
 .dropdown-content {
