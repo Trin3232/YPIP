@@ -161,10 +161,18 @@ a.e-grey:hover {
   margin-bottom:218px;
 }
 
+#info {
+  margin-bottom:-3px;
+  border-bottom:10px solid #80867c; */
+}
+
 .jk1 {
   max-width: 100%;
-  height: auto;
+  min-height: inherit;
+  margin-top: 3px;
+  margin-bottom:-5px;
 }
+
 
 /******************************************
 /*FOOTER CLASSES*/
