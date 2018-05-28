@@ -223,6 +223,7 @@ ERROR Page Styles
     background-color: #fed111;
     background-size: cover;
     height: 100%;
+    border-top: 10px solid #80867c;
     border-bottom: 10px solid #80867c;
     margin-bottom: -3px;
 }
