@@ -271,6 +271,98 @@ a.home-ypip:hover {
   transition: all 0.9s ease-in-out;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+/*********************************************
+/*Edinbugh, Glasgow, & Leigh-Buzz Pages Styles
+/*********************************************/
+
+
+.accommads-x3 {
+  height: 100%;
+  margin: 0;
+  font-family: 'Karma', 'Roboto', 'Opens Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #80867c;
+}
+
+.ypip-img1, .ypip-img2, .ypip-img3, .ypip-img4, .ypip-img5 {
+  position: relative;
+  opacity: 0.65;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /* scroll = normal & fixed = parallax */
+
+  background-attachment: fixed;
+}
+
+.ypip-img1 {
+  background-image: url('../Images/Img1.jpg');
+  background-position: center;
+  min-height: 180%;
+}
+
+.ypip-img2 {
+  background-image: url('../Images/Img2.jpg');
+  background-position: right bottom;
+  min-height: 870px;
+}
+
+.ypip-img3 {
+  background-image: url('../Images/Img3.jpg');
+  background-position: right bottom;
+  min-height: 650px;
+}
+
+.ypip-img4 {
+  background-image: url('../Images/Img4.jpg');
+  background-position: bottom;
+  min-height: 750px;
+}
+
+.ypip-img5 {
+  background-image: url('../Images/Img5.jpg');
+  background-position: center bottom;
+  min-height: 150%;
+}
+
+.section {
+  text-align: center;
+  padding: 45px 65px;
+}
+
+.section-light {
+  background-color: #ffffff;
+}
+
+.section-dark {
+  background-color: #bae3de;
+
+}
+
+.ptext {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #111;
+  padding: 22px;
+}
+
+.ptext .trans {
+  background-color: #fed111;
+  padding: 22px;
+}
+
+@media(max-width:568px) {
+  .ypip-img1, .ypip-img2, .ypip-img3, .ypip-img4, .ypip-img5 {
+    background-attachment: scroll;
+  }
+}
