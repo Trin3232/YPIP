@@ -7,7 +7,7 @@ Author: Trin3232
 /******************************************
 /* COLOURS
 /*******************************************/
- #ffffff, #fed111, #4db7aa, #d96f16, #DD90A2; #80867c; #bae3de; #d5d6d8
+ #ffffff, #fed111, #4db7aa, #d96f16, #DD90A2, #80867c, #bae3de, #d5d6d8
 
 /******************************************
 /* DEFAULTS
@@ -18,7 +18,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.5em;
-  background: #333 !important;
+  background: #fed111 !important;
 }
 
 /******************************************
@@ -391,7 +391,6 @@ a.home-ypip:hover {
   grid-column: 1 / 3;
 }
 
-
 .info-form {
   max-width: 1170px;
   margin-left: auto;
@@ -407,20 +406,21 @@ a.home-ypip:hover {
 
 .contact form button, .contact form input, .contact form textarea{
   width:100%;
-  padding:1em;
-  border:1px solid #c9e6ff;
+  padding:26px;
+  border-radius: 23px;
+  border:4px solid #80867c;
 }
 
 .contact form button{
-  background:#bae3de;
-  border:0;
+  background:#d96f16;
+  border:1;
   text-transform: uppercase;
-  color: inherit;
+  color: #ffffff;
 }
 
 .contact form button:hover,.contact form button:focus{
   background:#4db7aa;
-  color:#fff;
+  color:#ffffff;
   outline:0;
   transition: background-color 2s ease-out;
 }
