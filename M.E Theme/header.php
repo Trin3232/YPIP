@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<link rel="apple-touch-icon" sizes="57x57" href="../Images/Favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="../Images/Favicons/apple-touch-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="../Images/Favicons/apple-touch-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="../Images/Favicons/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="76x76" href="../Images/Favicons/apple-touch-icon-76x76.png">
@@ -24,13 +24,14 @@
 	<meta name="keywords" content="property investor, networker, serviced accommodation">
 	<meta name="robots" content="index,follow,noarchive">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-	<link rel="stylesheet" href="../CSS/main.css">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" type="text/css" media="all" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma%7COpen+Sans%7CRoboto" integrity="sha384-WKKZJTwV0icN917t4Huf3tv8hpxreiMxYe8cMXso6JJ94tD9GKmXcPYJ649c3XEc" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha384-2sS93OlLH4Rwt29UYd8nAkSYNrfCq3ll6oiJUuswWIHr0Pp9O6JfxtS/HWpC31kt" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css" integrity="sha384-vQPhfJdJkfTCHP7ouiqoAojjcDFuU346yP8z/pRpSn0xsWOfkMd+DkNmxns9jy4l" crossorigin="anonymous">
 	<title>Your Partner In Property</title>
+  <?php wp_head();?>
 </head>
 	<body>
 		<header>
@@ -41,90 +42,18 @@
 				</a>
 				<!-- Right Navigation Bar -->
 				<nav class="navbar">
-					<a href="contact.html" class="current" id="contact-tab">Contact Us</a>
+					<a href="contact.html" id="contact-tab">Contact Us</a>
           <a href="services.html" id="services-tab">Services</a>
           <div class="dropdown">
-						<button class="dropbtn" id="accomod-tab">Accommodation</button>
-		          <div class="dropdown-content">
-								<a href="leigh-buzz.html" class="l-b-pink">Leighton Buzzard</a>
-								<a href="glasgow.html" class="g-orange">Glasgow</a>
-								<a href="edinburgh.html" class="e-grey">Edinburgh</a>
-							</div>
-			     </div>
+					<button class="dropbtn" id="accomod-tab">Accommodation</button>
+	          <div class="dropdown-content">
+							<a href="leigh-buzz.html" class="l-b-pink">Leighton Buzzard</a>
+							<a href="glasgow.html" class="g-orange">Glasgow</a>
+							<a href="edinburgh.html" class="e-grey">Edinburgh</a>
+				     </div>
+				   </div>
 				   <a href="about.html" id="about-tab">About</a>
-				   <a href="index.html" id="home-tab">Home</a>
+				   <a href="index.html" class="current" id="home-tab">Home</a>
 				</nav>
 		</header>
-		<section id="info">
-			<div class="container" style="width:100% !important;color:#ffffff;">
-				<div class="info-form">
-					<div style="float:left;width:50%;padding:10px;">
-						<div class="company-info">
-							<h2>Blurb</h2>
-
-						</div>
-					</div>
-					<div style="float:right;width:50%;padding:10px;margin-bottom:44px;">
-						<div>
-							<div class="company-info" style="padding-bottom: 20px;">
-								<h2>Contact Us</h2>
-								<ul class="fa-form-ul">
-									<li <i class="fas fa-road"></i> 292 Somewhere St MK</li>
-									<li <i class="fas fa-phone"></i> 07983 560 345</li>
-									<li <i class="fas fa-envelope"></i> test@ypip.com</li>
-								</ul>
-							</div>
-							<div class="contact">
-								<h2 class="email-us">Leave Message</h2>
-								<form>
-									<p>
-										<label>Name</label>
-										<input type="text" name="name">
-									</p>
-									<p>
-										<label>Company</label>
-										<input type="text" name="company">
-									</p>
-									<p>
-										<label>Email Address</label>
-										<input type="email" name="email">
-									</p>
-									<p>
-										<label>Phone Number</label>
-										<input type="text" name="phone">
-									</p>
-									<p class="full">
-										<label>Message</label>
-										<textarea name="message" rows="6" cols="30"></textarea>
-									</p>
-									<p class="full">
-										<button type="button" name="button">Submit</button>
-									</p>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<footer>
-			<p id="comp-intel-prop"> Copyright &copy;
-				<span id="update-year-text"></span>
-				&nbsp; Your Partner In Property&nbsp; |&nbsp; All Rights Reserved |&nbsp; Web Design By <a id="link-k" href="" target="_blank">(link)</a> &nbsp;
-				<a href="https://github.com/Trin3232" target="_blank">
-					<i id="fa-git-icon", class="fab fa-github fa-lg"></i>
-				</a>&nbsp;|
-				<a href="https://www.facebook.com/" target="_blank">
-				 <i class="fab fa-facebook fa-lg"></i>
-				</a>&nbsp;|
-				<a href="https://www.meetup.com/" target="_blank">
-				 <i class="fab fa-meetup fa-lg"></i>
-				</a>&nbsp;|
-			</p>
-		</footer>
-		<!-- Script Links -->
-		<script src="https://code.jquery.com/jquery-latest.min.js" integrity="sha384-UM1JrZIpBwVf5jj9dTKVvGiiZPZTLVoq4sfdvIe9SBumsvCuv6AHDNtEiIb5h1kU" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js" integrity="sha384-d0+ufSr6Y7eU5V6E8Bt1AioIn4ParGkr0AwQ5RZD/S2mTaiEXMV78mqaYKMLE2qv" crossorigin="anonymous"></script>
-		<script src="../JS/main.js"></script>
-	</body>
-</html>
+				<section id="showcase">
