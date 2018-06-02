@@ -25,6 +25,24 @@ body {
   background: #fed111 !important;
 }
 
+/* visited link| mouse over link */
+
+a:visited {
+  color: #ffffff;
+}
+
+a:hover {
+    color: #fed111 !important;
+}
+
+i:hover {
+  color: #fed111;
+}
+
+a{
+  color: #ffffff !important;
+}
+
 /******************************************
 /* LAYOUT
 /*****************************************/
@@ -227,51 +245,46 @@ a.e-grey:hover {
   color: #80867c;
 }
 
-.ypip-img1, .ypip-img2, .ypip-img3, .ypip-img4, .ypip-img5 {
+.ypip-img2, .ypip-img3 {
+  border-top:6px solid #80867c;
+}
+
+.ypip-img1, .ypip-img2, .ypip-img3 {
   position: relative;
-  opacity: 0.65;
+/*  opacity: 0.7;*/
   background-size: cover;
   background-repeat: no-repeat;
+  border-bottom:10px solid #80867c;
 
-  /* scroll = normal & fixed = parallax */
+/* scroll = normal & fixed = parallax */
 
   background-attachment: fixed;
 }
 
 .ypip-img1 {
-  background-image: url('../Images/Img1.jpg');
+  background-image: url('../Images/Edinburgh/St%20Giles.jpg');
   background-position: center;
-  min-height: 180%;
+  min-height: 100%;
 }
 
 .ypip-img2 {
-  background-image: url('../Images/Img2.jpg');
-  background-position: right bottom;
-  min-height: 870px;
+  background-image: url('../Images/Glasgow/glasgow-street.jpg');
+  background-position: center;
+  min-height: 100%;
 }
 
 .ypip-img3 {
-  background-image: url('../Images/Img3.jpg');
-  background-position: right bottom;
-  min-height: 650px;
-}
-
-.ypip-img4 {
-  background-image: url('../Images/Img4.jpg');
-  background-position: bottom;
-  min-height: 750px;
-}
-
-.ypip-img5 {
-  background-image: url('../Images/Img5.jpg');
-  background-position: center bottom;
-  min-height: 150%;
+  background-image: url('../Images/LeightonBuzzard/Leighton-Buzz-Street.jpg');
+  background-position: center;
+  min-height: 88%;
 }
 
 .section {
   text-align: center;
   padding: 45px 65px;
 }
+
+
 
 .section-light {
   background-color: #ffffff;
@@ -299,7 +312,8 @@ a.e-grey:hover {
 }
 
 .ptext .trans {
-  background-color: #fed111;
+  background-color: #80867c;
+  color: #ffffff;
   padding: 22px;
 }
 
@@ -454,14 +468,4 @@ footer #link-k:hover {
 
 .fa-github, .fa-facebook, .fa-meetup {
    color: #ffffff;
-}
-
-/* visited link| mouse over link in footer */
-
-a:visited:hover {
-    color: #fed111;
-}
-
-i:hover {
-  color: #fed111;
 }
