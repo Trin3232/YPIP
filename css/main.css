@@ -176,19 +176,25 @@ a.e-grey:hover {
 /*****************************************/
 
 #showcase {
+/*
   max-width: 100%;
   height: auto;
-  background:url('../Images/Glasgow/IMG_0732.jpg') no-repeat center center;
+*/
+  background:url('../Images/LeightonBuzzard/Leigh-Buzz%20Kitchen.jpg') no-repeat center center;
+  background-position: center;
+  min-height: 77%;
   background-size: cover;
+/*
   padding-top: 111px;
   margin-bottom:-3px;
+*/
   border-bottom:10px solid #80867c;
 }
 
 #showcase h1{
   color: #ffffff;
-  margin-top: 177px;
-  font-size: 62px;
+  margin-top: 246px;
+  font-size: 64px;
   text-align: center;
   margin-bottom:218px;
 }
@@ -236,25 +242,26 @@ a.e-grey:hover {
 /*********************************************/
 
 
-.accommads-x3 {
+/* .accommads-x3 {
   height: 100%;
   margin: 0;
   font-family: 'Karma', 'Roboto', 'Opens Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #80867c;
-}
+} */
 
 .ypip-img2, .ypip-img3 {
-  border-top:6px solid #80867c;
+  border-top:10px solid #ffffff;
 }
 
-.ypip-img1, .ypip-img2, .ypip-img3 {
+.ypip-img1, .ypip-img2, .ypip-img3, .ypip-img4, .ypip-img5, .ypip-img6, .ypip-img7, .ypip-img8, .ypip-img9, .ypip-img10, .ypip-img11, .ypip-img12 {
   position: relative;
 /*  opacity: 0.7;*/
   background-size: cover;
   background-repeat: no-repeat;
-  border-bottom:10px solid #80867c;
+  /* border-top:10px solid #80867c;
+  border-bottom:10px solid #80867c; */
 
 /* scroll = normal & fixed = parallax */
 
@@ -277,6 +284,61 @@ a.e-grey:hover {
   background-image: url('../Images/LeightonBuzzard/Leighton-Buzz-Street.jpg');
   background-position: center;
   min-height: 88%;
+  border-bottom: 10px solid #80867c;
+}
+
+.ypip-img4 {
+  background-image: url('../Images/Edinburgh/edinburgh-living%20windows.jpg');
+  background-position: center;
+  min-height: 118%;
+}
+
+.ypip-img5 {
+  background-image: url('../Images/Edinburgh/edinburgh-kitchen.jpg');
+  background-position: center;
+  min-height: 120%;
+}
+
+.ypip-img6 {
+  background-image: url('../Images/Edinburgh/edinburgh-double%20bed.jpg');
+  background-position: center;
+  min-height: 115%;
+}
+
+.ypip-img7 {
+  background-image: url('../Images/Glasgow/glasgow-living-room.jpg');
+  background-position: center;
+  min-height: 90%;
+}
+
+.ypip-img8 {
+  background-image: url('../Images/Glasgow/glasgow-kitchen.jpg');
+  background-position: center;
+  min-height: 90%;
+}
+
+.ypip-img9 {
+  background-image: url('../Images/Glasgow/glasgow-bedroom.jpg');
+  background-position: center;
+  min-height: 90%;
+}
+
+.ypip-img10 {
+  background-image: url('../Images/LeightonBuzzard/Leigh-Buzz%20Living-Room.jpg');
+  background-position: center;
+  min-height: 90%;
+}
+
+.ypip-img11 {
+  background-image: url('../Images/LeightonBuzzard/Leigh-Buzz%20Kitchen-XL.jpg');
+  background-position: center;
+  min-height: 90%;
+}
+
+.ypip-img12 {
+  background-image: url('../Images/LeightonBuzzard/Leigh-Buzz%20Bedroom.jpg');
+  background-position: center;
+  min-height: 90%;
 }
 
 .section {
@@ -284,10 +346,12 @@ a.e-grey:hover {
   padding: 45px 65px;
 }
 
-
-
 .section-light {
   background-color: #ffffff;
+}
+
+.section-third {
+  border-bottom: 10px solid #80867c;
 }
 
 .section-dark {
@@ -309,16 +373,18 @@ a.e-grey:hover {
 .ptext .border {
   background-color: #111;
   padding: 22px;
+  opacity: 0.65;
 }
 
 .ptext .trans {
   background-color: #80867c;
   color: #ffffff;
   padding: 22px;
+  opacity: 0.75;
 }
 
 @media(max-width:568px) {
-  .ypip-img1, .ypip-img2, .ypip-img3, .ypip-img4, .ypip-img5 {
+  .ypip-img1, .ypip-img2, .ypip-img3, .ypip-img4, .ypip-img5, .ypip-img6 {
     background-attachment: scroll;
   }
 }
@@ -446,7 +512,7 @@ a.home-ypip:hover {
 
 footer {
   padding: 45px;
-  margin-top: 3px;
+  margin-top: 0px;
   color:#ffffff;
   background-color: #4db7aa;
   z-index: 1;
