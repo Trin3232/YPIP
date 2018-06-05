@@ -31,6 +31,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha384-2sS93OlLH4Rwt29UYd8nAkSYNrfCq3ll6oiJUuswWIHr0Pp9O6JfxtS/HWpC31kt" crossorigin="anonymous">
 	<link rel="stylesheet" href="../CSS/main.css">
 	<title>Your Partner In Property</title>
+	<?php wp_head();?>
 </head>
 	<body>
 		<header>

@@ -394,6 +394,45 @@ a.e-grey:hover {
 }
 
 /**********************************************
+/* SERVICES PAGE
+/*********************************************/
+
+.ypip-img2, .ypip-img3 {
+  border-top:10px solid #ffffff;
+}
+
+.ypip-img13 {
+  background-image: url('../Images/Logos Stock/financial planning.jpg');
+  background-position: center;
+  min-height: 90%;
+}
+
+
+.ypip-img14 {
+  background-image: url('../Images/Logos Stock/mentoring1.jpeg');
+  background-position: center;
+  min-height: 90%;
+}
+
+.ypip-img15 {
+  background-image: url('../Images/Logos Stock/education.jpeg');
+  background-position: center;
+  min-height: 90%;
+}
+
+.ypip-img13, .ypip-img14, .ypip-img15 {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* opacity: 0.5; */
+
+/* scroll = normal & fixed = parallax */
+
+  background-attachment: fixed;
+}
+
+
+/**********************************************
 /* ABOUT PAGE
 /*********************************************/
 
