@@ -7,8 +7,8 @@ Author: Trin3232
 /******************************************
 /* COLOURS
 /*******************************************/
- #ffffff, #fed111, #4db7aa, #d96f16, #DD90A2, #80867c, #bae3de, #d5d6d8
-
+ #ffffff, #fed111, #4db7aa, #d96f16, #DD90A2,
+ #000000 #bae3de, #d5d6d8 #80867c,
 /******************************************
 /* DEFAULTS
 /*******************************************/
@@ -454,7 +454,7 @@ a.e-grey:hover {
 .panel-green {
   padding:15px;
   background: #4db7aa;
-  color:#ffffff;
+  color:#000000;
   margin-top:10px;
   margin-bottom:17px !important;
 }
@@ -462,7 +462,7 @@ a.e-grey:hover {
 .panel-grey {
   padding:15px;
   background: #80867c;
-  color:#ffffff;
+  color:#000000;
   margin-top:10px;
   margin-bottom:17px !important;
 }
@@ -495,13 +495,16 @@ a.e-grey:hover {
 
 /* Boxes & Images styling */
 
-.break-fist, .buddy-call, .focus-form {
+#break-fist, .buddy-call, .focus-form {
   border-radius: 12px;
   border: 4px solid #80867c;
 }
 
-.break-fist {
+#break-fist {
   max-width: 68% !important;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 0.2s;
+  /* -webkit-animation-iteration-count: infinite; */
 }
 
 .buddy-call {

@@ -32,4 +32,11 @@ function myFunction() {
 
 // Animate Freebies Images
 
-$('.break-fist').addClass('animated bounceIn');
+
+// $(function() {
+//
+//   $('.').on('mouseover', function() {
+//     $('#break-fist').addClass('animated bounceIn');
+//   });
+//
+// });
