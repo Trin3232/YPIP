@@ -398,7 +398,7 @@ a.e-grey:hover {
 }
 
 @media(max-width:568px) {
-  .ypip-img1, .ypip-img2, .ypip-img3, .ypip-img4, .ypip-img5, .ypip-img6 {
+  .ypip-img1, .ypip-img2, .ypip-img3, .ypip-img4, .ypip-img5, .ypip-img6 .ypip-img7, .ypip-img8, .ypip-img9, .ypip-img10, .ypip-img11, .ypip-img12 {
     background-attachment: scroll;
   }
 }
@@ -534,50 +534,60 @@ a.e-grey:hover {
 
 
 /**********************************************
-/* CONTACT PAGE
+/* CONTACT US PAGE
 /*********************************************/
 
-/* FORM  */
+/* Form  */
 
-.contact form{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap:20px;
+.dark{
+  padding:15px;
+  background: #4db7aa;
+  color: #35424a;
+  border:3px solid #80867c;
+  margin-top:61px;
+  margin-bottom:10px;
 }
 
-.contact form label{
-  display:block;
+/* Sidebar */
+
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:40px;
 }
 
-.contact form p{
-  margin:0;
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:4px;
 }
 
-.contact form .full{
-  grid-column: 1 / 3;
+/*Main-col */
+
+article#main-coloumn{
+  float:left;
+  width:65%;
 }
 
-.info-form {
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1em;
+/* Contact Services */
+
+
+.page-title {
+  padding: 30px 0 30px 0;
 }
 
-.fa-form-ul {
+
+ul#contact-services li{
   list-style: none;
-  padding:0;
-  margin: 0;
+  padding:20px;
+  color: #35424a;
+  border:3px solid #80867c;
+  margin-top:-10px;
+  margin-bottom:5px;
+  background: #4db7aa;
 }
 
-.contact form button, .contact form input, .contact form textarea{
-  width:100%;
-  padding:26px;
-  border-radius: 23px;
-  border:4px solid #80867c;
-}
-
-.contact form button{
+/* .contact form button{
   background:#d96f16;
   border:1;
   text-transform: uppercase;
@@ -589,7 +599,8 @@ a.e-grey:hover {
   color:#ffffff;
   outline:0;
   transition: background-color 2s ease-out;
-}
+} */
+
 
 /******************************************
 /* 404 ERROR PAGE ALL
