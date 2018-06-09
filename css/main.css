@@ -13,16 +13,16 @@ Author: Trin3232
 /* DEFAULTS
 /*******************************************/
 
-html {
+/* html {
   height: 100%;
-}
+} */
 
 body {
   font-family: 'Karma', 'Roboto', 'Opens Sans', sans-serif !important;
   margin: 0;
   padding: 0;
   line-height: 1.5em;
-  background: #fed111 !important;
+  background: #fed111;
 }
 
 p {
@@ -223,7 +223,7 @@ a.e-grey:hover {
 }
 
 .box-info {
-  float:right;
+  /* float:right; */
   width:50%;
 }
 
@@ -234,7 +234,7 @@ a.e-grey:hover {
   padding-left: 70px;
 }
 
-.short-info-h2{
+.short-info, h2{
   font-size: 36px;
   color: #DD90A2;
   text-align: center;
@@ -247,7 +247,7 @@ a.e-grey:hover {
   margin-left: auto;
   margin-right: auto;
   font-size: 22px;
-  color: #ffffff;
+  color: #000000;
   line-height: 1.7em;
 }
 
@@ -572,8 +572,8 @@ article#main-coloumn{
 /* Contact Services */
 
 
-.page-title {
-  padding: 30px 0 30px 0;
+.header-title-about, .page-title {
+  padding-bottom: 35px;
 }
 
 
