@@ -19,8 +19,8 @@ Author: Trin3232
 
 body {
   font-family: 'Karma', 'Roboto', 'Opens Sans', sans-serif !important;
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
   line-height: 1.5em;
   background: #fed111;
 }
@@ -472,8 +472,8 @@ a.e-grey:hover {
   padding-bottom: 25px;
 }
 
-.info-title-sub-white {
-  color: #ffffff !important;
+.info-title-sub-pink {
+  color: #DD90A2 !important;
   padding-bottom: 25px;
 }
 
@@ -544,7 +544,7 @@ a.e-grey:hover {
   background: #4db7aa;
   color: #35424a;
   border:3px solid #80867c;
-  margin-top:61px;
+  margin-top: 74px;
   margin-bottom:10px;
 }
 
@@ -574,6 +574,7 @@ article#main-coloumn{
 
 .header-title-about, .page-title {
   padding-bottom: 35px;
+  font-size: 30px;
 }
 
 
@@ -610,7 +611,7 @@ ul#contact-services li{
     background-color: #fed111;
     background-size: cover;
     height: 100%;
-    border-top: 10px solid #80867c;
+    /* border-top: 10px solid #80867c; */
     border-bottom: 10px solid #80867c;
     margin-bottom: -3px;
 }
@@ -621,6 +622,7 @@ ul#contact-services li{
    flex-direction: column;
    align-items: center;
    justify-content: center;
+   padding-bottom: 138px;
 }
 
 .title-error {
@@ -634,7 +636,7 @@ ul#contact-services li{
 .subtitle-error {
     font-size: 42px;
     font-weight: bold;
-    color: #ffffff;
+    color: #80867c;
     padding-bottom: 68px;
 }
 
@@ -649,14 +651,14 @@ a.home-ypip {
     text-decoration: none;
     padding: 19px;
     text-transform: uppercase;
-    color: #d96f16;
+    color: #80867c !important;
     border-radius: 30px;
     transition: all 0.9s ease-in-out;
 }
 
 a.home-ypip:hover {
   background-color: #d96f16;
-  color: #ffffff;
+  color: #ffffff !important;
   transition: all 0.9s ease-in-out;
 }
 
