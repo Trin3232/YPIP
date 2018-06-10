@@ -13,12 +13,12 @@ Author: Trin3232
 /* DEFAULTS
 /*******************************************/
 
-/* html {
-  height: 100%;
-} */
+html {
+  height: 0 !important;
+}
 
 body {
-  font-family: 'Karma', 'Roboto', 'Opens Sans', sans-serif !important;
+  font-family: 'Roboto', 'Karma', 'Opens Sans', sans-serif !important;
   margin: 0 !important;
   padding: 0 !important;
   line-height: 1.5em;
