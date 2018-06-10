@@ -59,6 +59,12 @@ a{
   overflow:hidden;
 }
 
+.main {
+  width: 100%;
+  margin:auto;
+  overflow:hidden;
+}
+
 #container-2{
   width: 100%;
   padding: 0;
@@ -231,15 +237,16 @@ a.e-grey:hover {
 
 #jk1 {
   float: left;
-  padding-left: 70px;
-  width: 40%;
+  padding-left: 78px;
+  width: 50%;
+  height: 30%;
 }
 
-.short-info, h2{
+.short-info-h2 {
   font-size: 36px;
+  padding-top: 36px;
   color: #DD90A2;
   text-align: center;
-  line-height: 2.5em;
 }
 
 .short-info {
@@ -286,74 +293,74 @@ a.e-grey:hover {
 .ypip-img1 {
   background-image: url('../Images/Edinburgh/St%20Giles.jpg');
   background-position: center;
-  min-height: 100%;
+  min-height: 600px;
 }
 
 .ypip-img2 {
   background-image: url('../Images/Glasgow/glasgow-street.jpg');
   background-position: center;
-  min-height: 100%;
+  min-height: 600px;
 }
 
 .ypip-img3 {
   background-image: url('../Images/LeightonBuzzard/Leighton-Buzz-Street.jpg');
   background-position: center;
-  min-height: 88%;
+  min-height: 600px;
   border-bottom: 10px solid #80867c;
 }
 
 .ypip-img4 {
   background-image: url('../Images/Edinburgh/edinburgh-living%20windows.jpg');
   background-position: center;
-  min-height: 118%;
+  min-height: 600px;
 }
 
 .ypip-img5 {
   background-image: url('../Images/Edinburgh/edinburgh-kitchen.jpg');
   background-position: center;
-  min-height: 120%;
+  min-height: 600px;
 }
 
 .ypip-img6 {
   background-image: url('../Images/Edinburgh/edinburgh-double%20bed.jpg');
   background-position: center;
-  min-height: 115%;
+  min-height: 600px;
 }
 
 .ypip-img7 {
   background-image: url('../Images/Glasgow/glasgow-living-room.jpg');
   background-position: center;
-  min-height: 90%;
+  min-height: 600px;
 }
 
 .ypip-img8 {
   background-image: url('../Images/Glasgow/glasgow-kitchen.jpg');
   background-position: center;
-  min-height: 90%;
+  min-height: 600px;
 }
 
 .ypip-img9 {
   background-image: url('../Images/Glasgow/glasgow-bedroom.jpg');
   background-position: center;
-  min-height: 90%;
+  min-height: 600px;
 }
 
 .ypip-img10 {
   background-image: url('../Images/LeightonBuzzard/Leigh-Buzz%20Living-Room.jpg');
   background-position: center;
-  min-height: 90%;
+  min-height: 600px;
 }
 
 .ypip-img11 {
   background-image: url('../Images/LeightonBuzzard/Leigh-Buzz%20Kitchen-XL.jpg');
   background-position: center;
-  min-height: 90%;
+  min-height: 600px;
 }
 
 .ypip-img12 {
   background-image: url('../Images/LeightonBuzzard/Leigh-Buzz%20Bedroom.jpg');
   background-position: center;
-  min-height: 90%;
+  min-height: 600px;
 }
 
 .section {
@@ -376,11 +383,11 @@ a.e-grey:hover {
 
 .ptext {
   position: absolute;
-  top: 35%;
+  top: 50%;
   width: 100%;
   text-align: center;
   color: #ffffff;
-  font-size: 28px;
+  font-size: 30px;
   letter-spacing: 9px;
   text-transform: uppercase;
 }
@@ -415,20 +422,20 @@ a.e-grey:hover {
 .ypip-img13 {
   background-image: url('../Images/Logos Stock/financial planning.jpg');
   background-position: center;
-  min-height: 90%;
+  min-height: 600px;
 }
 
 
 .ypip-img14 {
   background-image: url('../Images/Logos Stock/mentoring1.jpeg');
   background-position: center;
-  min-height: 90%;
+  min-height: 600px;
 }
 
 .ypip-img15 {
   background-image: url('../Images/Logos Stock/education.jpeg');
   background-position: center;
-  min-height: 90%;
+  min-height: 600px;
 }
 
 .ypip-img13, .ypip-img14, .ypip-img15 {
@@ -470,7 +477,7 @@ a.e-grey:hover {
 
 .info-title-sub-grey {
   color: #80867c !important;
-  padding-bottom: 25px;
+  padding-bottom: 9px;
 }
 
 .info-title-sub-pink {
@@ -487,8 +494,8 @@ a.e-grey:hover {
   float:right;
   max-width: 100%;
   width: 45%;
-  margin: 3px 0px -5px 0px;
-  /* padding-left: 70px; */
+  padding-top: 135px;
+  margin: auto;
 }
 
 /**********************************************
@@ -546,7 +553,7 @@ a.e-grey:hover {
   background: #4db7aa;
   color: #35424a;
   border:3px solid #80867c;
-  margin-top: 74px;
+  margin-top: 56px;
   margin-bottom:10px;
 }
 
@@ -575,8 +582,9 @@ article#main-coloumn{
 
 
 .header-title-about, .page-title {
-  padding-bottom: 35px;
-  font-size: 30px;
+  padding-bottom: 7px;
+  font-size: 30px
+  /* text-align: center; */
 }
 
 
