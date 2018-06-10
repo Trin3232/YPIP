@@ -230,7 +230,7 @@ a.e-grey:hover {
 #jk1 {
   max-width: 100%;
   width: 50%;
-  margin: 3px 0px -5px 0px;
+  margin: 0px 0px -5px 0px;
   padding-left: 70px;
 }
 
@@ -691,4 +691,8 @@ footer #link-k:hover {
 
 .fa-github, .fa-facebook, .fa-meetup, .fa-twitter, .fa-linkedin, .fa-youtube {
    color: #ffffff;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
 }
