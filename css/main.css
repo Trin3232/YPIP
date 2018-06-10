@@ -220,18 +220,19 @@ a.e-grey:hover {
 #pic-info {
   margin-bottom:-3px;
   border-bottom:10px solid #80867c;
+  width: 100%;
+  display: flex;
 }
 
 .box-info {
-  /* float:right; */
-  width:50%;
+  float: left;
+  width: 40%;
 }
 
 #jk1 {
-  max-width: 100%;
-  width: 50%;
-  margin: 0px 0px -5px 0px;
+  float: left;
   padding-left: 70px;
+  width: 40%;
 }
 
 .short-info, h2{
@@ -478,7 +479,8 @@ a.e-grey:hover {
 }
 
 .about-article {
-
+   float: left;
+   width: 50%;
 }
 
 #jk2 {
