@@ -25,9 +25,9 @@ body {
   background: #fed111;
 }
 
-p {
-  font-size: 17px !important;
-}
+/* p {
+  font-size: 17px;
+} */
 
 /* visited link| mouse over link */
 
@@ -553,7 +553,7 @@ a.e-grey:hover {
   background: #4db7aa;
   color: #35424a;
   border:3px solid #80867c;
-  margin-top: 56px;
+  margin-top: 36px;
   margin-bottom:10px;
 }
 
@@ -576,6 +576,10 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 article#main-coloumn{
   float:left;
   width:65%;
+}
+
+.contact-main {
+  border-bottom: 10px solid #80867c;
 }
 
 /* Contact Services */
@@ -639,7 +643,7 @@ ul#contact-services li{
     font-size: 136px;
     font-weight: bold;
     color: #d96f16;
-    padding-top: 26px;
+    padding-top: 184px;
     padding-bottom: 98px;
 }
 
@@ -685,7 +689,7 @@ footer {
   z-index: 1;
   /* opacity: 0.72; */
   text-align:center;
-  font-size: 19px;
+  font-size: 20px;
   position: sticky;
 }
 
