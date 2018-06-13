@@ -25,10 +25,6 @@ body {
   background: #fed111;
 }
 
-/* p {
-  font-size: 17px;
-} */
-
 /* visited link| mouse over link */
 
 a:visited {
@@ -96,8 +92,8 @@ header {
 #about-tab {background-color: #80867c;}
 #accomod-tab {background-color: #d96f16;}
 #services-tab {background-color: #fed111;}
-#contact-tab {background-color: #DD90A2;} */
-
+#contact-tab {background-color: #DD90A2;}
+#network-tab {background-color: #000000;} */
 
 /******************************************
 /* NAVBAR ALL PAGES
@@ -405,11 +401,6 @@ a.e-grey:hover {
   opacity: 0.75;
 }
 
-@media(max-width:568px) {
-  .ypip-img1, .ypip-img2, .ypip-img3, .ypip-img4, .ypip-img5, .ypip-img6 .ypip-img7, .ypip-img8, .ypip-img9, .ypip-img10, .ypip-img11, .ypip-img12 {
-    background-attachment: scroll;
-  }
-}
 
 /**********************************************
 /* SERVICES PAGE
@@ -541,6 +532,26 @@ a.e-grey:hover {
   width: 318px;
 }
 
+.header-title-about, .page-title-2 {
+  margin-left: 47px;
+  padding-bottom: 7px;
+  font-size: 30px
+}
+
+.contact-main {
+  border-bottom: 10px solid #80867c;
+}
+
+.about-article-2 {
+   float: left;
+   width: 48%;
+}
+
+.about-article-3 {
+  float: right;
+  width: 49%;
+}
+
 
 /**********************************************
 /* CONTACT US PAGE
@@ -588,9 +599,7 @@ article#main-coloumn{
 .header-title-about, .page-title {
   padding-bottom: 7px;
   font-size: 30px
-  /* text-align: center; */
 }
-
 
 ul#contact-services li{
   list-style: none;
@@ -709,4 +718,14 @@ footer #link-k:hover {
 
 a:-webkit-any-link {
     text-decoration: none;
+}
+
+/**********************************************
+/* MEDIA QUERIES
+/*********************************************/
+
+@media(max-width:568px) {
+  .ypip-img1, .ypip-img2, .ypip-img3, .ypip-img4, .ypip-img5, .ypip-img6 .ypip-img7, .ypip-img8, .ypip-img9, .ypip-img10, .ypip-img11, .ypip-img12 {
+    background-attachment: scroll;
+  }
 }
