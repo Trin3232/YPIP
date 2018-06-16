@@ -9,6 +9,12 @@ document.getElementById("update-year-text").innerHTML = d.getFullYear();
 
 function gotoaccommad(){
   window.location.href="accommad.html";
+
+}
+
+function gotoservices(){
+  window.location.href="services.html";
+
 }
 
 // When the user scrolls the page, execute myFunction
