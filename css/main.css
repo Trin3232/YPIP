@@ -430,7 +430,7 @@ a.e-grey:hover {
 /*********************************************/
 
 .header-title-about, .header-title-about-2 {
-  color: #DD90A2 !important;
+  color: #000000 !important;
   margin-top: 25px !important;
 }
 
@@ -492,7 +492,7 @@ a.e-grey:hover {
 
 /* Boxes & Images styling */
 
-#break-fist, .buddy-call, .focus-form {
+#break-fist, .strategy-pic, .buddy-call, .focus-form {
   border-radius: 12px;
   border: 4px solid #80867c;
 }
@@ -504,8 +504,12 @@ a.e-grey:hover {
   /* -webkit-animation-iteration-count: infinite; */
 }
 
-.buddy-call {
-  max-width: 105% !important;
+.buddy-call{
+  max-width: 103% !important;
+}
+
+.strategy-pic {
+  max-width: 55% !important;
 }
 
 .focus-form {
@@ -521,7 +525,7 @@ a.e-grey:hover {
 #boxes .box{
   float:left;
   text-align:center;
-  width:30%;
+  width:23%;
   padding:10px;
 }
 
@@ -570,7 +574,7 @@ a.e-grey:hover {
 aside#sidebar{
   float:right;
   width:30%;
-  margin-top:40px;
+  margin-top:70px;
 }
 
 
@@ -584,6 +588,7 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 article#main-coloumn{
   float:left;
   width:65%;
+  margin-bottom: 41px;
 }
 
 .contact-main {
@@ -593,18 +598,28 @@ article#main-coloumn{
 /* Contact Services */
 
 
-.header-title-about, .header-title-about-2, .page-title {
+.header-title-about, .header-title-about-2, .header-title-about-3, .header-title-about-0, .page-title {
   padding-bottom: 7px;
   font-size: 30px
 }
 
 .header-title-about{
-  padding-left: 79px;
+  padding-left: 67px;
+}
+
+.header-title-about-0 {
+  padding-left: 0px !important
 }
 
 .header-title-about-2 {
   padding-left: 39px;
+  padding-bottom: 37px
 }
+
+.header-title-about-3 {
+  color:#DD90A2;
+}
+
 
 ul#contact-services li{
   list-style: none;
