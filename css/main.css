@@ -73,7 +73,6 @@ a{
 
 #ypip-logo-img {
   float: left;
-  width: 409px;
   height: 92px;
   border:6px solid #80867c;
   border-radius: 27px;
@@ -115,7 +114,7 @@ header {
     text-decoration: none;
 }
 
-.sticky {
+/* .sticky {
   position: fixed;
   top: 0;
   width: 100%
@@ -123,7 +122,7 @@ header {
 
 .sticky + main{
   padding-top: 60px;
-}
+} */
 
 .dropdown {
     float: right;
@@ -145,11 +144,6 @@ header {
   color: #fed111;
 }
 
-/* .current a .dropbtn:hover {
-  border-bottom: 3px solid #fed111;
-  padding-bottom:3px;
-} */
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -162,14 +156,14 @@ header {
   background-color: #4db7aa;
 }
 
-/* .dropdown-content a {
+.dropdown-content a {
     float: none;
     color: #ffffff;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: center;
-} */
+}
 
 a.l-b-pink:hover {
     background-color: #DD90A2;
@@ -235,7 +229,7 @@ a.e-grey:hover {
   float: left;
   padding-left: 78px;
   width: 50%;
-  height: 30%;
+  height: 100%;
 }
 
 .short-info-h2 {
@@ -250,24 +244,14 @@ a.e-grey:hover {
   margin-top: 61px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 22px;
+  font-size: 23px;
   color: #000000;
-  line-height: 1.7em;
+  line-height: 2.9em;
 }
 
 /**********************************************
 /* Edinbugh, Glasgow, & Leigh-Buzz Pages
 /*********************************************/
-
-
-/* .accommads-x3 {
-  height: 100%;
-  margin: 0;
-  font-family: 'Karma', 'Roboto', 'Opens Sans', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #80867c;
-} */
 
 .ypip-img2, .ypip-img3 {
   border-top:10px solid #ffffff;
@@ -424,7 +408,7 @@ a.e-grey:hover {
 }
 
 .ypip-img15 {
-  background-image: url('../Images/Logos Stock/education.jpeg');
+  background-image: url('../Images/Logos Stock/mentoring2.jpg');
   background-position: center;
   min-height: 600px;
 }
@@ -445,7 +429,7 @@ a.e-grey:hover {
 /* ABOUT PAGE
 /*********************************************/
 
-.header-title-about {
+.header-title-about, .header-title-about-2 {
   color: #DD90A2 !important;
   margin-top: 25px !important;
 }
@@ -466,6 +450,14 @@ a.e-grey:hover {
   margin-bottom:17px !important;
 }
 
+.panel-pink {
+  padding:15px;
+  background: #DD90A2;
+  color:#000000;
+  margin-top:10px;
+  margin-bottom:17px !important;
+}
+
 .info-title-sub-grey {
   color: #80867c !important;
   padding-bottom: 9px;
@@ -473,6 +465,11 @@ a.e-grey:hover {
 
 .info-title-sub-pink {
   color: #DD90A2 !important;
+  padding-bottom: 25px;
+}
+
+.info-title-sub-green {
+  color: #4db7aa !important;
   padding-bottom: 25px;
 }
 
@@ -533,7 +530,7 @@ a.e-grey:hover {
 }
 
 .header-title-about, .page-title-2 {
-  margin-left: 47px;
+  /* margin-left: 47px; */
   padding-bottom: 7px;
   font-size: 30px
 }
@@ -596,9 +593,17 @@ article#main-coloumn{
 /* Contact Services */
 
 
-.header-title-about, .page-title {
+.header-title-about, .header-title-about-2, .page-title {
   padding-bottom: 7px;
   font-size: 30px
+}
+
+.header-title-about{
+  padding-left: 79px;
+}
+
+.header-title-about-2 {
+  padding-left: 39px;
 }
 
 ul#contact-services li{
@@ -729,3 +734,51 @@ a:-webkit-any-link {
     background-attachment: scroll;
   }
 }
+
+
+/* @media only screen and (max-width: 1024px) and (min-width: 318px){
+                {
+  float:none;
+  text-align:center;
+  width:100%;
+  }
+} */
+/*
+.navbar-mobile{
+  display: none;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 800px){
+
+    .navbar-mobile {
+      display: block;
+    }
+    .navbar{
+      display: none;
+    }
+}
+
+@media only screen and (min-width: 801px){
+    .navbar-mobile{
+      display: none;
+    }
+    .navbar{
+      display: block;
+    }
+}
+
+
+#ypip-logo-img, {
+width: 274px;  /*320px Mobile*/
+
+}
+
+width: 323px;  /*375px Mobile*/
+width: 368px   /*425px Mobile*/
+width: 368px;  /*475px Mobile*/
+margin-left: 81px; /*768px tablet*/
+margin-left: 106px; /*800px tablet*/
+padding-left: 231px; /*1024px tablet*/
+padding-left: 231px; /*1024px laptop*/
+height: 80px; /*1280px laptop*/ */
