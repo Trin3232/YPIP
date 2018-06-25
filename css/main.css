@@ -749,56 +749,51 @@ a:-webkit-any-link {
 /* MEDIA QUERIES
 /*********************************************/
 
-@media(max-width:568px) {
+/* GALAXY S5 */
+@media(min-width: 360px) and (max-width:374px) {
+  .header-title-about, .page-title-2 {
+    font-size: 8px;
+  }
+  #ypip-logo-img {
+    width: 312px;
+  }
+}
+
+/* IPHONE 6/7/8 */
+@media(min-width: 375px) and (max-width:410px) {
+  .header-title-about, .page-title-2 {
+    font-size: 8px;
+  }
+  #ypip-logo-img {
+    width: 325px;
+  }
+}
+
+/* PIXEL 2 */
+@media(min-width: 411px) and (max-width:567px) {
+  .header-title-about, .page-title-2 {
+    font-size: 8px;
+  }
+  #ypip-logo-img {
+    width: 358px;
+  }
+}
+
+/* ANYTHING ABOVE A PIXEL 2 */
+@media(min-width:568px) {
   .ypip-img1, .ypip-img2, .ypip-img3, .ypip-img4, .ypip-img5, .ypip-img6 .ypip-img7, .ypip-img8, .ypip-img9, .ypip-img10, .ypip-img11, .ypip-img12 {
     background-attachment: scroll;
   }
 }
 
-
-/* @media only screen and (max-width: 1024px) and (min-width: 318px){
-                {
-  float:none;
-  text-align:center;
-  width:100%;
-  }
-} */
 /*
-.navbar-mobile{
-  display: none;
-}
+width: 323px;  // 375px Mobile
+width: 368px   // 425px Mobile
+width: 368px;  // 475px Mobile
+margin-left: 81px; // 768px tablet
+margin-left: 106px; // 800px tablet
+padding-left: 231px; // 1024px tablet
+padding-left: 231px; // 1024px laptop
+height: 80px; // 1280px laptop 
 
-
-@media only screen and (min-width: 320px) and (max-width: 800px){
-
-    .navbar-mobile {
-      display: block;
-    }
-    .navbar{
-      display: none;
-    }
-}
-
-@media only screen and (min-width: 801px){
-    .navbar-mobile{
-      display: none;
-    }
-    .navbar{
-      display: block;
-    }
-}
-
-
-#ypip-logo-img, {
-width: 274px;  /*320px Mobile*/
-
-}
-
-width: 323px;  /*375px Mobile*/
-width: 368px   /*425px Mobile*/
-width: 368px;  /*475px Mobile*/
-margin-left: 81px; /*768px tablet*/
-margin-left: 106px; /*800px tablet*/
-padding-left: 231px; /*1024px tablet*/
-padding-left: 231px; /*1024px laptop*/
-height: 80px; /*1280px laptop*/ */
+*/
