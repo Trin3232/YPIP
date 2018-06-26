@@ -582,6 +582,20 @@ aside#sidebar{
   margin-top:70px;
 }
 
+aside#sidebar-2{
+  float:right;
+  width:30%;
+  margin-top:40px;
+}
+
+ul#contact-services-2 li{
+  list-style-type: none;
+  margin-left: -37px;
+  line-height: 2em;
+  word-spacing: 2px;
+  
+}
+
 
 aside#sidebar .quote input, aside#sidebar .quote textarea{
   width:90%;
@@ -794,6 +808,6 @@ margin-left: 81px; // 768px tablet
 margin-left: 106px; // 800px tablet
 padding-left: 231px; // 1024px tablet
 padding-left: 231px; // 1024px laptop
-height: 80px; // 1280px laptop 
+height: 80px; // 1280px laptop
 
 */
