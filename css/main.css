@@ -592,9 +592,12 @@ ul#contact-services-2 li{
   list-style-type: none;
   margin-left: -37px;
   line-height: 2em;
-  word-spacing: 2px;
-  
+  word-spacing: 1px;
 }
+
+/* .fa-mobile-alt, .fa-envelope, .fa-map{
+   color: #80867c;
+} */
 
 
 aside#sidebar .quote input, aside#sidebar .quote textarea{
