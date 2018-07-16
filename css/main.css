@@ -610,7 +610,7 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 article#main-coloumn{
   float:left;
   width:65%;
-  margin-bottom: 41px;
+  /* margin-bottom: 41px; */
 }
 
 .contact-main {
