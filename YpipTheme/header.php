@@ -22,9 +22,9 @@
 	<link rel="apple-touch-icon" sizes="144x144" href="<?php echo get_template_directory_uri(); ?>/wp-content/uploads/2018/07/apple-touch-icon-140x140.png">
 	<link rel="apple-touch-icon" sizes="152x152" href="<?php echo get_template_directory_uri(); ?>/wp-content/uploads/2018/07/apple-touch-icon-152x152.png">
 	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/wp-content/uploads/2018/07/apple-touch-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/wp-content/uploads/2018/07/favicon-32x32.png
-	<link rel="icon" type="image/png" sizes="192x192" href="<?php echo get_template_directory_uri(); ?>/wp-content/uploads/2018/07/android-chrome-192x192.png
-	<link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/wp-content/uploads/2018/07/favicon-16x16.png
+	<link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/wp-content/uploads/2018/07/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="<?php echo get_template_directory_uri(); ?>/wp-content/uploads/2018/07/android-chrome-192x192.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/wp-content/uploads/2018/07/favicon-16x16.png">
 	<!-- <link rel="manifest" href="../Images/Favicons/site.webmanifest"> -->
 	<!-- <link rel="mask-icon" href="../Images/Favicons/safari-pinned-tab.svg" color="#5bbad5"> -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma%7COpen+Sans%7CRoboto">
@@ -40,26 +40,26 @@
 		<div class="container">
 			<!--Company Logo Jpeg -->
 			<a href="index.html">
-				<img id="ypip-logo-img" src="https://www.yourpartnerinproperty.co.uk/wp-content/uploads/2018/06/ypip-logo-2.jpg alt="ypip company logo" title="Your Partner In Property">
+				<img id="ypip-logo-img" src="https://www.yourpartnerinproperty.co.uk/wp-content/uploads/2018/06/ypip-logo-2.jpg" alt="ypip company logo" title="Your Partner In Property">
 			</a>
-			<nav class="navbar">
-				<a href="https://www.yourpartnerinproperty.co.uk/contact-us-new/" id="contact-tab">Contact Us</a>
-				<div class="dropdown">
-					<button class="dropbtn" id="services-tab" onclick="gotoservices()">Services</button>
-					<div class="dropdown-content">
-						<a href="https://www.yourpartnerinproperty.co.uk/freebies/" class="e-grey">Freebies</a>
-						<a href="https://www.yourpartnerinproperty.co.uk/networking/" class="l-b-pink">Networking</a>
-					</div>
+		<nav class="navbar">
+			<a href="https://www.yourpartnerinproperty.co.uk/contact-us-new/" id="contact-tab">Contact Us</a>
+			<div class="dropdown">
+				<button class="dropbtn" id="services-tab" onclick="gotoservices()">Services</button>
+				<div class="dropdown-content">
+					<a href="https://www.yourpartnerinproperty.co.uk/freebies/" class="e-grey">Freebies</a>
+					<a href="https://www.yourpartnerinproperty.co.uk/networking/" class="l-b-pink">Networking</a>
 				</div>
-				<div class="dropdown">
-					<button class="dropbtn" id="accomod-tab" onclick="gotoaccommad()">Accommodation</button>
-					<div class="dropdown-content">
-						<a href="https://www.yourpartnerinproperty.co.uk/leighton-buzzard/ " class="l-b-pink">Leighton Buzzard</a>
-						<a href="https://www.yourpartnerinproperty.co.uk/glasgow/" class="g-orange">Glasgow</a>
-						<a href="https://www.yourpartnerinproperty.co.uk/edinburgh/" class="e-grey">Edinburgh</a>
-					</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn" id="accomod-tab" onclick="gotoaccommad()">Accommodation</button>
+				<div class="dropdown-content">
+					<a href="https://www.yourpartnerinproperty.co.uk/leighton-buzzard/ " class="l-b-pink">Leighton Buzzard</a>
+					<a href="https://www.yourpartnerinproperty.co.uk/glasgow/" class="g-orange">Glasgow</a>
+					<a href="https://www.yourpartnerinproperty.co.uk/edinburgh/" class="e-grey">Edinburgh</a>
 				</div>
-				<a href="https://www.yourpartnerinproperty.co.uk/aboutnew/" id="about-tab">About</a>
-				<a href="https://www.yourpartnerinproperty.co.uk/homenew/" class="current" id="home-tab">Home</a>
-			</nav>
-		</header>
+			</div>
+			<a href="https://www.yourpartnerinproperty.co.uk/aboutnew/" id="about-tab">About</a>
+			<a href="https://www.yourpartnerinproperty.co.uk/homenew/" class="current" id="home-tab">Home</a>
+		</nav>
+	</header>

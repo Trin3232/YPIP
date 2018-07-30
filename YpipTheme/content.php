@@ -23,5 +23,3 @@
       </section>
     </div>
 </div>
-
-Nature your mind with great thoughts, for you will never go any higher than your thinking"....

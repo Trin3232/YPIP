@@ -32,6 +32,7 @@ body {
 
 a:visited {
   color: #ffffff;
+  text-decoration: none !important;
 }
 
 a:hover {

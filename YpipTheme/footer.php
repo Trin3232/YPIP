@@ -25,7 +25,7 @@
   <!-- Script Links -->
 
   <script src="https://code.jquery.com/jquery-latest.min.js" integrity="sha384-UM1JrZIpBwVf5jj9dTKVvGiiZPZTLVoq4sfdvIe9SBumsvCuv6AHDNtEiIb5h1kU" crossorigin="anonymous"></script>
-  <script src="'/script.js'"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/script.js"></script>
 
   <?php wp_footer(); ?>
 

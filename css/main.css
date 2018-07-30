@@ -29,6 +29,7 @@ body {
 
 a:visited {
   color: #ffffff;
+  text-decoration: none !important;
 }
 
 a:hover {
@@ -259,11 +260,8 @@ a.e-grey:hover {
 
 .ypip-img1, .ypip-img2, .ypip-img3, .ypip-img4, .ypip-img5, .ypip-img6, .ypip-img7, .ypip-img8, .ypip-img9, .ypip-img10, .ypip-img11, .ypip-img12 {
   position: relative;
-/*  opacity: 0.7;*/
   background-size: cover;
   background-repeat: no-repeat;
-  /* border-top:10px solid #80867c;
-  border-bottom:10px solid #80867c; */
 
 /* scroll = normal & fixed = parallax */
 

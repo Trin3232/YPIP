@@ -40,14 +40,11 @@
 
   body {
     font-family: 'Roboto', 'Karma', 'Opens Sans', sans-serif !important;
+		font-size: 19px !important;
     margin: 0 !important;
     padding: 0 !important;
     line-height: 1.5em;
     background: #fed111;
-  }
-
-  p {
-    font-size: 17px !important;
   }
 
   /* visited link| mouse over link */
@@ -72,6 +69,8 @@
     width: 90%;
     margin:auto;
     overflow:hidden;
+		display: flex;
+		/* justify-content: center; */
   }
 
   .main {
@@ -239,7 +238,7 @@
     z-index: 1;
     /* opacity: 0.72; */
     text-align:center;
-    font-size: 19px;
+    font-size: 20px !important;
     position: sticky;
   }
 
@@ -260,6 +259,284 @@
   a:-webkit-any-link {
       text-decoration: none;
   }
+
+/**********************************************
+/* MEDIA QUERIES
+/*********************************************/
+
+
+/* Galaxy S5 & Beyond 360px */
+
+@media screen and (max-width: 360px) {
+  #ypip-logo-img {
+	  width: 280px;
+ }
+
+ .container {
+		width: 85%;
+ }
+
+ .navbar {
+		margin-top: 132px;
+		margin-left: -262px;
+	  margin-right: 55px;
+		display: grid;
+	}
+
+	.navbar a {
+    font-size: 29px;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 28px;
+  }
+
+  .ptext .trans {
+ 		letter-spacing: 0px;
+  }
+
+   footer {
+		 line-height: 1.8em;
+     letter-spacing: 1.5px;
+  }
+}
+
+/**********************************************
+/* MEDIA QUERIES
+/*********************************************/
+
+/* Mobile S 320px */
+
+@media screen and (max-width: 320px) {
+  #ypip-logo-img {
+		width: 280px;
+ }
+
+ .container {
+    width: 92%;
+ }
+
+ .navbar {
+		margin-top: 132px;
+		margin-left: -241px;
+	  margin-right: 55px;
+		display: grid;
+ }
+
+ .navbar a {
+  font-size: 22px;
+ }
+
+ .dropdown .dropbtn {
+  font-size: 21px;
+ }
+
+ .ptext .trans {
+	letter-spacing: 0px;
+ }
+
+  footer {
+		letter-spacing: 2px;
+	  line-height: 1.9em;
+ }
+}
+
+/* Mobile 374px to 384px */
+
+@media screen and (max-width: 384px) and (min-width: 375px) {
+  #ypip-logo-img {
+		width: 305px;
+  }
+
+	.container {
+ 		width: 86%;
+  }
+
+	.navbar {
+ 		margin-top: 132px;
+ 		margin-left: -262px;
+ 	  margin-right: 55px;
+ 		display: grid;
+ 	}
+
+ 	.navbar a {
+     font-size: 29px;
+   }
+
+   .dropdown .dropbtn {
+     font-size: 28px;
+   }
+
+   .ptext .trans {
+  		letter-spacing: 0px;
+   }
+
+    footer {
+ 		 line-height: 1.8em;
+      letter-spacing: 1.5px;
+   }
+}
+
+/* Mobile L 385px to 425px */
+
+@media screen and (max-width: 425px) and (min-width: 385px) {
+ #ypip-logo-img {
+	width: 368px;
+}
+
+ .navbar {
+	margin-top: 132px;
+	margin-left: -302px;
+  margin-right: 55px;
+	display: grid;
+ }
+
+ .navbar a {
+		font-size: 29px;
+	}
+
+	.dropdown .dropbtn {
+		font-size: 28px;
+	}
+
+	.ptext .trans {
+		 letter-spacing: 0px;
+	}
+
+	 footer {
+		line-height: 1.8em;
+		letter-spacing: 1.5px;
+	}
+}
+
+@media screen and (max-width: 540px) and (min-width: 426px) {
+  #ypip-logo-img {
+	width: 368px;
+}
+
+	.container {
+		width: 71%;
+	}
+
+ .navbar {
+	margin-top: 132px;
+	margin-left: -302px;
+  margin-right: 55px;
+	display: grid;
+ }
+
+ .navbar a {
+		font-size: 29px;
+	}
+
+	.dropdown .dropbtn {
+		font-size: 28px;
+	}
+
+	.ptext .trans {
+		 letter-spacing: 0px;
+	}
+
+	 footer {
+		line-height: 1.8em;
+		letter-spacing: 1.5px;
+	}
+}
+
+
+/* Tablet 541px and 768px */
+
+@media screen and (max-width: 768px) and (min-width: 541px) {
+	#ypip-logo-img {
+		width: 458px;
+		height: 104px;
+		margin-left: 106px;
+	}
+
+	.navbar {
+		margin-top: 132px;
+		margin-left: -339px;
+	  margin-right: 55px;
+		display: grid;
+	}
+
+	.navbar a {
+	 font-size: 26px;
+	}
+
+	.dropdown .dropbtn {
+	    font-size: 26px;
+	}
+
+	footer {
+		letter-spacing: 2px;
+	}
+}
+
+/* Tablet 800px and 1023px */
+
+@media screen and (max-width: 800px) and (min-width: 768px) {
+	.container {
+	 width: 86%;
+	}
+
+	#ypip-logo-img {
+		width: 458px;
+		height: 104px;
+		margin-left: 106px;
+	}
+
+	.navbar {
+		margin-top: 132px;
+		margin-left: -339px;
+	  margin-right: 55px;
+		display: grid;
+	}
+
+	.navbar a {
+	 font-size: 29px;
+	}
+
+	.dropdown .dropbtn {
+	    font-size: 29px;
+	}
+
+	footer {
+		letter-spacing: 7px;
+	}
+}
+
+
+/* laptop 801px to 1024px */
+
+@media screen and (max-width: 1024px) and (min-width: 801px) {
+ .container {
+  width: 97%;
+}
+	#ypip-logo-img {
+		width: 394px;
+	}
+
+	.navbar a {
+		padding: 13px 5px;
+	}
+
+	.dropdown .dropbtn {
+		padding: 14px 14px;
+	}
+
+	footer {
+		font-size: 18px !important;
+	}
+}
+
+/* Tablet HD Screen 1280px */
+
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+	.container {
+	 width: 87%;
+	}
+}
 
   </style>
 
@@ -288,6 +565,7 @@
   				   <a href="index.html" id="home-tab">Home</a>
 				</nav>
 			</header>
+
 			<div class="main">
 				<div class="ypip-img1">
 					<div class="ptext">
@@ -307,6 +585,7 @@
 					</div>
 				</div>
 			</div>
+
 		<footer>
 			<p id="comp-intel-prop"> Copyright &copy;
 				<span id="update-year-text"></span>
