@@ -765,50 +765,357 @@ a:-webkit-any-link {
 /*********************************************/
 
 /* GALAXY S5 */
-@media(min-width: 360px) and (max-width:374px) {
+/* @media(min-width: 360px) and (max-width:374px) {
   .header-title-about, .page-title-2 {
     font-size: 8px;
   }
   #ypip-logo-img {
     width: 312px;
   }
-}
+} */
 
 /* IPHONE 6/7/8 */
-@media(min-width: 375px) and (max-width:410px) {
+/* @media(min-width: 375px) and (max-width:410px) {
   .header-title-about, .page-title-2 {
     font-size: 8px;
   }
   #ypip-logo-img {
     width: 325px;
   }
-}
+} */
 
 /* PIXEL 2 */
-@media(min-width: 411px) and (max-width:567px) {
+/* @media(min-width: 411px) and (max-width:567px) {
   .header-title-about, .page-title-2 {
     font-size: 8px;
   }
   #ypip-logo-img {
     width: 358px;
   }
-}
+} */
 
 /* ANYTHING ABOVE A PIXEL 2 */
-@media(min-width:568px) {
+/* @media(min-width:568px) {
   .ypip-img1, .ypip-img2, .ypip-img3, .ypip-img4, .ypip-img5, .ypip-img6 .ypip-img7, .ypip-img8, .ypip-img9, .ypip-img10, .ypip-img11, .ypip-img12 {
     background-attachment: scroll;
   }
+} */
+
+/* Mobile S 320px */
+
+@media screen and (max-width: 320px) {
+  #ypip-logo-img {
+		width: 280px;
+ }
+
+ .container {
+    width: 92%;
+ }
+
+ #showcase h1 {
+   line-height: 1.2em;
+   letter-spacing: 1.3px;
+   color: #000000;
+ }
+
+ .header-title-about-0 {
+   font-size: 25px;
+ }
+
+ #jk2 {
+   padding-top: 126px;
+ }
+
+ .info-title-sub-grey, .info-title-sub-pink, .info-title-sub-green {
+   margin-left: 80px;
+ }
+
+ .header-title-about {
+    padding-left: 94px;
 }
 
-/*
-width: 323px;  // 375px Mobile
-width: 368px   // 425px Mobile
-width: 368px;  // 475px Mobile
-margin-left: 81px; // 768px tablet
-margin-left: 106px; // 800px tablet
-padding-left: 231px; // 1024px tablet
-padding-left: 231px; // 1024px laptop
-height: 80px; // 1280px laptop
+ .header-title-about-3 {
+   margin-left: 92px;
+ }
 
-*/
+ .pm-book {
+   max-width: 209px;
+   margin-top: 10px;
+   margin-left: 39px;
+   margin-bottom: 26px;
+ }
+
+ .navbar {
+		margin-top: 132px;
+		margin-left: -241px;
+	  margin-right: 55px;
+    margin-bottom: -17px;
+		display: grid;
+ }
+
+ .navbar a {
+  font-size: 21.5px;
+ }
+
+ .dropdown {
+  text-align: center;
+ }
+
+ .dropdown .dropbtn {
+  font-size: 21.5px;
+ }
+
+ .ptext .trans {
+	letter-spacing: -2px;
+  line-height: 1.9em;
+  padding: 8px;
+ }
+
+  footer {
+		letter-spacing: 3px;
+	  line-height: 1.9em;
+ }
+}
+
+/* Mobile 374px to 384px */
+
+@media screen and (max-width: 384px) and (min-width: 375px) {
+  #ypip-logo-img {
+		width: 305px;
+  }
+
+	.container {
+ 		width: 86%;
+  }
+
+  .navbar {
+ 		margin-top: 132px;
+ 		margin-left: -241px;
+ 	  margin-right: 55px;
+    margin-bottom: -17px;
+ 		display: grid;
+  }
+
+  .navbar a {
+   font-size: 21.5px;
+  }
+
+  .dropdown {
+   text-align: center;
+  }
+
+  .dropdown .dropbtn {
+   font-size: 21.5px;
+  }
+
+  #showcase h1 {
+    line-height: 1.2em;
+    letter-spacing: 1.3px;
+    color: #000000;
+  }
+
+  .header-title-about-0 {
+    font-size: 25px;
+  }
+
+  #jk2 {
+    padding-top: 126px;
+  }
+
+  .info-title-sub-grey, .info-title-sub-pink, .info-title-sub-green {
+    margin-left: 80px;
+  }
+
+  .header-title-about {
+     padding-left: 127px;
+ }
+
+  .header-title-about-3 {
+    margin-left: 107px;
+  }
+
+  .ptext .trans {
+   letter-spacing: -2px;
+   line-height: 1.9em;
+   padding: 8px;
+   font-size: 34px;
+  }
+
+  .pm-book {
+    max-width: 239px;
+    margin-top: 10px;
+    margin-left: 39px;
+    margin-bottom: 26px;
+  }
+
+    footer {
+ 		 line-height: 1.8em;
+     letter-spacing: 0.3px;
+   }
+}
+
+/* Mobile L 385px to 425px */
+
+@media screen and (max-width: 425px) and (min-width: 385px) {
+ #ypip-logo-img {
+	width: 368px;
+}
+
+ .navbar {
+   margin-top: 132px;
+   margin-left: -241px;
+   margin-right: 55px;
+  margin-bottom: -17px;
+   display: grid;
+}
+
+ .navbar a {
+ font-size: 21.5px;
+}
+
+ .dropdown {
+ text-align: center;
+}
+
+ .dropdown .dropbtn {
+ font-size: 21.5px;
+}
+
+ .ptext .trans {
+	letter-spacing: 0px;
+}
+
+	footer {
+   line-height: 1.8em;
+   letter-spacing: 1.5px;
+	}
+}
+
+@media screen and (max-width: 540px) and (min-width: 426px) {
+  #ypip-logo-img {
+	width: 368px;
+}
+
+	.container {
+		width: 71%;
+	}
+
+ .navbar {
+	margin-top: 132px;
+	margin-left: -302px;
+  margin-right: 55px;
+	display: grid;
+ }
+
+ .navbar a {
+		font-size: 29px;
+	}
+
+	.dropdown .dropbtn {
+		font-size: 28px;
+	}
+
+	.ptext .trans {
+		 letter-spacing: 0px;
+	}
+
+	 footer {
+		line-height: 1.8em;
+		letter-spacing: 1.5px;
+	}
+}
+
+
+/* Tablet 541px and 768px */
+
+@media screen and (max-width: 768px) and (min-width: 541px) {
+	#ypip-logo-img {
+		width: 458px;
+		height: 104px;
+		margin-left: 106px;
+	}
+
+	.navbar {
+		margin-top: 132px;
+		margin-left: -339px;
+	  margin-right: 55px;
+		display: grid;
+	}
+
+	.navbar a {
+	 font-size: 26px;
+	}
+
+	.dropdown .dropbtn {
+	    font-size: 26px;
+	}
+
+	footer {
+		letter-spacing: 2px;
+	}
+}
+
+/* Tablet 800px and 1023px */
+
+@media screen and (max-width: 800px) and (min-width: 768px) {
+	.container {
+	 width: 86%;
+	}
+
+	#ypip-logo-img {
+		width: 458px;
+		height: 104px;
+		margin-left: 106px;
+	}
+
+	.navbar {
+		margin-top: 132px;
+		margin-left: -339px;
+	  margin-right: 55px;
+		display: grid;
+	}
+
+	.navbar a {
+	 font-size: 29px;
+	}
+
+	.dropdown .dropbtn {
+	    font-size: 29px;
+	}
+
+	footer {
+		letter-spacing: 7px;
+	}
+}
+
+
+/* laptop 801px to 1024px */
+
+@media screen and (max-width: 1024px) and (min-width: 801px) {
+ .container {
+  width: 97%;
+}
+	#ypip-logo-img {
+		width: 394px;
+	}
+
+	.navbar a {
+		padding: 13px 5px;
+	}
+
+	.dropdown .dropbtn {
+		padding: 14px 14px;
+	}
+
+	footer {
+		font-size: 18px !important;
+	}
+}
+
+/* Tablet HD Screen 1280px */
+
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+	.container {
+	 width: 87%;
+	}
+}
