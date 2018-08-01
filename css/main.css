@@ -877,7 +877,7 @@ a:-webkit-any-link {
  }
 }
 
-/* Mobile 374px to 384px */
+/* Mobile 375px to 384px */
 
 @media screen and (max-width: 384px) and (min-width: 375px) {
   #ypip-logo-img {
@@ -962,34 +962,76 @@ a:-webkit-any-link {
 }
 
  .navbar {
-   margin-top: 132px;
-   margin-left: -241px;
-   margin-right: 55px;
+  margin-top: 15px;
+  margin-left: -241px;
+  margin-right: 92px;
   margin-bottom: -17px;
-   display: grid;
+  display: grid;
 }
 
+ .header-title-about {
+   padding-left: 158px;
+ }
+
  .navbar a {
- font-size: 21.5px;
+  font-size: 21.5px;
 }
 
  .dropdown {
- text-align: center;
+  text-align: center;
 }
 
- .dropdown .dropbtn {
- font-size: 21.5px;
-}
+  .dropdown .dropbtn {
+   font-size: 21.5px;
+  }
 
- .ptext .trans {
-	letter-spacing: 0px;
-}
+  #showcase h1 {
+    line-height: 1.2em;
+    letter-spacing: 1.3px;
+    color: #000000;
+  }
 
-	footer {
+  .header-title-about-0 {
+    font-size: 25px;
+  }
+
+  #jk2 {
+    padding-top: 126px;
+  }
+
+  .info-title-sub-grey, .info-title-sub-pink, .info-title-sub-green {
+    margin-left: 127px;
+  }
+
+  .header-title-about {
+     padding-left: 151px;
+  }
+
+  .header-title-about-3 {
+    margin-left: 133px;
+  }
+
+  .ptext .trans {
+   letter-spacing: -2px;
+   line-height: 1.9em;
+   padding: 8px;
+   font-size: 34px;
+  }
+
+  .pm-book {
+    max-width: 239px;
+    margin-top: 10px;
+    margin-left: 73px;
+    margin-bottom: 26px;
+  }
+
+  footer {
    line-height: 1.8em;
-   letter-spacing: 1.5px;
-	}
+   letter-spacing: 0.3px;
+ }
 }
+
+/* Mobile L 540px to 426px */
 
 @media screen and (max-width: 540px) and (min-width: 426px) {
   #ypip-logo-img {
@@ -1116,6 +1158,62 @@ a:-webkit-any-link {
 
 @media screen and (max-width: 1280px) and (min-width: 1025px) {
 	.container {
-	 width: 87%;
+	  width: 87%;
 	}
+}
+
+/*ERROR PAGE*/
+
+@media screen and (max-width: 375px) and (min-width: 320px) {
+  .title-error {
+    line-height: 0.9em;
+    letter-spacing: -0.5px;
+    text-align: center;
+    font-size: 113px;
+  }
+
+  .subtitle-error {
+    line-height: 0.9em;
+    letter-spacing: -1.5px;
+    text-align: center;
+  }
+
+  a.home-ypip{
+    line-height: 3.9em;
+    letter-spacing: -2.8px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .title-error {
+    line-height: 0.9em;
+    letter-spacing: -0.5px;
+    text-align: center;
+    font-size: 113px;
+  }
+
+  .subtitle-error {
+    line-height: 0.9em;
+    letter-spacing: -1.5px;
+    text-align: center;
+  }
+
+  a.home-ypip{
+    line-height: 3.9em;
+    letter-spacing: -2.8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+   .subtitle-error {
+    text-align: center;
+    line-height: 1em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+   .subtitle-error {
+    text-align: center;
+    line-height: 1em;
+  }
 }
