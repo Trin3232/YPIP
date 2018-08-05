@@ -44,15 +44,15 @@
 			</a>
 		<nav class="navbar">
 			<a href="https://www.yourpartnerinproperty.co.uk/contact-us-new/" id="contact-tab">Contact Us</a>
-			<div class="dropdown">
-				<button class="dropbtn" id="services-tab" onclick="gotoservices()">Services</button>
+			<div class="dropdown" id="services-tab">
+			<button class="dropbtn"  onclick="gotoservices()">Services</button>
 				<div class="dropdown-content">
 					<a href="https://www.yourpartnerinproperty.co.uk/freebies/" class="e-grey">Freebies</a>
 					<a href="https://www.yourpartnerinproperty.co.uk/networking/" class="l-b-pink">Networking</a>
 				</div>
 			</div>
-			<div class="dropdown">
-				<button class="dropbtn" id="accomod-tab" onclick="gotoaccommad()">Accommodation</button>
+			<div class="dropdown" id="accomod-tab">
+			<button class="dropbtn" onclick="gotoaccommad()">Accommodation</button>
 				<div class="dropdown-content">
 					<a href="https://www.yourpartnerinproperty.co.uk/leighton-buzzard/ " class="l-b-pink">Leighton Buzzard</a>
 					<a href="https://www.yourpartnerinproperty.co.uk/glasgow/" class="g-orange">Glasgow</a>

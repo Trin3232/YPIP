@@ -194,7 +194,7 @@ a.e-grey:hover {
   max-width: 100%;
   height: auto;
 */
-  background:url('../Images/LeightonBuzzard/Leigh-Buzz%20Kitchen.jpg') no-repeat center center;
+  background:url('https://www.yourpartnerinproperty.co.uk/wp-content/uploads/2018/06/Leigh-Buzz-Kitchen.jpg') no-repeat center center;
   background-position: center;
   min-height: 77%;
   background-size: cover;
@@ -272,74 +272,74 @@ a.e-grey:hover {
 }
 
 .ypip-img1 {
-  background-image: url('../Images/Edinburgh/St%20Giles.jpg');
+  background-image: url('https://www.yourpartnerinproperty.co.uk/wp-content/uploads/2018/06/St-Giles.jpg');
   background-position: center;
   min-height: 600px;
 }
 
 .ypip-img2 {
-  background-image: url('../Images/Glasgow/glasgow-street.jpg');
+  background-image: url('https://www.yourpartnerinproperty.co.uk/wp-content/uploads/2018/06/glasgow-street.jpg');
   background-position: center;
   min-height: 600px;
 }
 
 .ypip-img3 {
-  background-image: url('../Images/LeightonBuzzard/Leighton-Buzz-Street.jpg');
+  background-image: url('https://www.yourpartnerinproperty.co.uk/wp-content/uploads/2018/06/Leighton-Buzz-Street.jpg');
   background-position: center;
   min-height: 600px;
   border-bottom: 10px solid #80867c;
 }
 
 .ypip-img4 {
-  background-image: url('../Images/Edinburgh/edinburgh-living%20windows.jpg');
+  background-image: url('https://www.yourpartnerinproperty.co.uk/wp-content/uploads/2018/06/edinburgh-living-windows.jpg');
   background-position: center;
   min-height: 600px;
 }
 
 .ypip-img5 {
-  background-image: url('../Images/Edinburgh/edinburgh-kitchen.jpg');
+  background-image: url('https://www.yourpartnerinproperty.co.uk/wp-content/uploads/2018/06/edinburgh-kitchen.jpg');
   background-position: center;
   min-height: 600px;
 }
 
 .ypip-img6 {
-  background-image: url('../Images/Edinburgh/edinburgh-double%20bed.jpg');
+  background-image: url('https://www.yourpartnerinproperty.co.uk/wp-content/uploads/2018/06/edinburgh-double-bed.jpg');
   background-position: center;
   min-height: 600px;
 }
 
 .ypip-img7 {
-  background-image: url('../Images/Glasgow/glasgow-living-room.jpg');
+  background-image: url('https://www.yourpartnerinproperty.co.uk/wp-content/uploads/2018/06/glasgow-living-room.jpg');
   background-position: center;
   min-height: 600px;
 }
 
 .ypip-img8 {
-  background-image: url('../Images/Glasgow/glasgow-kitchen.jpg');
+  background-image: url('https://www.yourpartnerinproperty.co.uk/wp-content/uploads/2018/06/glasgow-kitchen.jpg');
   background-position: center;
   min-height: 600px;
 }
 
 .ypip-img9 {
-  background-image: url('../Images/Glasgow/glasgow-bedroom.jpg');
+  background-image: url('https://www.yourpartnerinproperty.co.uk/wp-content/uploads/2018/06/glasgow-bedroom.jpg');
   background-position: center;
   min-height: 600px;
 }
 
 .ypip-img10 {
-  background-image: url('../Images/LeightonBuzzard/Leigh-Buzz%20Living-Room.jpg');
+  background-image: url('https://www.yourpartnerinproperty.co.uk/wp-content/uploads/2018/06/Leigh-Buzz-Living-Room.jpg');
   background-position: center;
   min-height: 600px;
 }
 
 .ypip-img11 {
-  background-image: url('../Images/LeightonBuzzard/Leigh-Buzz%20Kitchen-XL.jpg');
+  background-image: url('https://www.yourpartnerinproperty.co.uk/wp-content/uploads/2018/06/Leigh-Buzz-Kitchen-XL.jpg');
   background-position: center;
   min-height: 600px;
 }
 
 .ypip-img12 {
-  background-image: url('../Images/LeightonBuzzard/Leigh-Buzz%20Bedroom.jpg');
+  background-image: url('https://www.yourpartnerinproperty.co.uk/wp-content/uploads/2018/06/Leigh-Buzz-Bedroom.jpg');
   background-position: center;
   min-height: 600px;
 }
@@ -382,7 +382,8 @@ a.e-grey:hover {
 .ptext .trans {
   background-color: #80867c;
   color: #ffffff;
-  padding: 22px;
+  padding-top: 13px;
+padding-bottom: 13px;
   opacity: 0.75;
 }
 
@@ -396,20 +397,20 @@ a.e-grey:hover {
 }
 
 .ypip-img13 {
-  background-image: url('../Images/Logos Stock/financial planning.jpg');
+  background-image: url('https://www.yourpartnerinproperty.co.uk/wp-content/uploads/2018/06/financial-planning.jpg');
   background-position: center;
   min-height: 600px;
 }
 
 
 .ypip-img14 {
-  background-image: url('../Images/Logos Stock/mentoring1.jpeg');
+  background-image: url('https://www.yourpartnerinproperty.co.uk/wp-content/uploads/2018/06/mentoring1.jpeg');
   background-position: center;
   min-height: 600px;
 }
 
 .ypip-img15 {
-  background-image: url('../Images/Logos Stock/mentoring2.jpg');
+  background-image: url('https://www.yourpartnerinproperty.co.uk/wp-content/uploads/2018/06/mentoring2.jpg');
   background-position: center;
   min-height: 600px;
 }
@@ -767,43 +768,6 @@ a:-webkit-any-link {
 /* MEDIA QUERIES
 /*********************************************/
 
-/* GALAXY S5 */
-/* @media(min-width: 360px) and (max-width:374px) {
-  .header-title-about, .page-title-2 {
-    font-size: 8px;
-  }
-  #ypip-logo-img {
-    width: 312px;
-  }
-} */
-
-/* IPHONE 6/7/8 */
-/* @media(min-width: 375px) and (max-width:410px) {
-  .header-title-about, .page-title-2 {
-    font-size: 8px;
-  }
-  #ypip-logo-img {
-    width: 325px;
-  }
-} */
-
-/* PIXEL 2 */
-/* @media(min-width: 411px) and (max-width:567px) {
-  .header-title-about, .page-title-2 {
-    font-size: 8px;
-  }
-  #ypip-logo-img {
-    width: 358px;
-  }
-} */
-
-/* ANYTHING ABOVE A PIXEL 2 */
-/* @media(min-width:568px) {
-  .ypip-img1, .ypip-img2, .ypip-img3, .ypip-img4, .ypip-img5, .ypip-img6 .ypip-img7, .ypip-img8, .ypip-img9, .ypip-img10, .ypip-img11, .ypip-img12 {
-    background-attachment: scroll;
-  }
-} */
-
 /* Mobile S 320px */
 
 @media screen and (max-width: 320px) {
@@ -868,6 +832,27 @@ a:-webkit-any-link {
   font-size: 21.5px;
  }
 
+ #home-tab {
+   -webkit-order: -3;
+ }
+
+ #about-tab {
+   -webkit-order: -2;
+ }
+
+ #accomod-tab {
+   -webkit-order: -1;
+ }
+
+ #services-tab {
+   margin-left: -7px;
+   -webkit-order: 0;
+ }
+
+ #contact-tab {
+   -webkit-order: 1;
+ }
+
  .ptext .trans {
 	letter-spacing: -2px;
   line-height: 1.9em;
@@ -880,9 +865,10 @@ a:-webkit-any-link {
  }
 }
 
-/* Mobile 375px to 384px */
+/* Samsung Galaxy Series 360px*/
 
-@media screen and (max-width: 384px) and (min-width: 375px) {
+
+@media screen and (max-width: 360px) and (min-width: 358px) {
   #ypip-logo-img {
 		width: 305px;
   }
@@ -892,9 +878,9 @@ a:-webkit-any-link {
   }
 
   .navbar {
- 		margin-top: 132px;
- 		margin-left: -241px;
- 	  margin-right: 55px;
+ 		margin-top: 4px;
+ 		margin-left: -251px;
+ 	  margin-right: 67px;
     margin-bottom: -17px;
  		display: grid;
   }
@@ -909,6 +895,126 @@ a:-webkit-any-link {
 
   .dropdown .dropbtn {
    font-size: 21.5px;
+  }
+
+  #home-tab {
+    -webkit-order: -3;
+  }
+
+  #about-tab {
+    -webkit-order: -2;
+  }
+
+  #accomod-tab {
+    -webkit-order: -1;
+  }
+
+  #services-tab {
+    margin-left: 1px;
+    -webkit-order: 0;
+  }
+
+  #contact-tab {
+    -webkit-order: 1;
+  }
+
+  #showcase h1 {
+    line-height: 1.2em;
+    letter-spacing: 1.3px;
+    color: #000000;
+  }
+
+  .header-title-about-0 {
+    font-size: 25px;
+  }
+
+  #jk2 {
+    padding-top: 126px;
+  }
+
+  .info-title-sub-grey, .info-title-sub-pink, .info-title-sub-green {
+    margin-left: 80px;
+  }
+
+  .header-title-about {
+     padding-left: 127px;
+ }
+
+  .header-title-about-3 {
+    margin-left: 107px;
+  }
+
+  .ptext .trans {
+   letter-spacing: -2px;
+   line-height: 1.9em;
+   padding: 8px;
+   font-size: 34px;
+  }
+
+  .pm-book {
+    max-width: 239px;
+    margin-top: 10px;
+    margin-left: 39px;
+    margin-bottom: 26px;
+  }
+
+    footer {
+ 		 line-height: 1.8em;
+     letter-spacing: 0.3px;
+   }
+}
+
+
+/* Mobile 375px to 384px */
+
+@media screen and (max-width: 384px) and (min-width: 375px) {
+  #ypip-logo-img {
+		width: 305px;
+  }
+
+	.container {
+ 		width: 86%;
+  }
+
+  .navbar {
+ 		margin-top: 132px;
+ 		margin-left: -251px;
+ 	  margin-right: 67px;
+    margin-bottom: -17px;
+ 		display: grid;
+  }
+
+  .navbar a {
+   font-size: 21.5px;
+  }
+
+  .dropdown {
+   text-align: center;
+  }
+
+  .dropdown .dropbtn {
+   font-size: 21.5px;
+  }
+
+  #home-tab {
+    -webkit-order: -3;
+  }
+
+  #about-tab {
+    -webkit-order: -2;
+  }
+
+  #accomod-tab {
+    -webkit-order: -1;
+  }
+
+  #services-tab {
+    margin-left: 1px;
+    -webkit-order: 0;
+  }
+
+  #contact-tab {
+    -webkit-order: 1;
   }
 
   #showcase h1 {
@@ -1014,6 +1120,27 @@ a:-webkit-any-link {
     margin-left: 133px;
   }
 
+  #home-tab {
+    -webkit-order: -3;
+  }
+
+  #about-tab {
+    -webkit-order: -2;
+  }
+
+  #accomod-tab {
+    -webkit-order: -1;
+  }
+
+  #services-tab {
+    margin-left: -4px;
+    -webkit-order: 0;
+  }
+
+  #contact-tab {
+    -webkit-order: 1;
+  }
+
   .ptext .trans {
    letter-spacing: -2px;
    line-height: 1.9em;
@@ -1060,6 +1187,27 @@ a:-webkit-any-link {
 		font-size: 28px;
 	}
 
+  #home-tab {
+    -webkit-order: -3;
+  }
+
+  #about-tab {
+    -webkit-order: -2;
+  }
+
+  #accomod-tab {
+    -webkit-order: -1;
+  }
+
+  #services-tab {
+    margin-left: 52px;
+    -webkit-order: 0;
+  }
+
+  #contact-tab {
+    -webkit-order: 1;
+  }
+
 	.ptext .trans {
 		 letter-spacing: 0px;
 	}
@@ -1071,20 +1219,20 @@ a:-webkit-any-link {
 }
 
 
-/* Tablet 541px and 768px */
+/* Larger Mobile 768px and 780px */
 
-@media screen and (max-width: 768px) and (min-width: 541px) {
+@media screen and (max-width: 780px) and (min-width: 768px) {
 	#ypip-logo-img {
 		width: 458px;
 		height: 104px;
-		margin-left: 106px;
+		margin-left: 100px;
 	}
 
 	.navbar {
-		margin-top: 132px;
-		margin-left: -339px;
-	  margin-right: 55px;
-		display: grid;
+    margin-top: 132px;
+    margin-left: -339px;
+    margin-right: 233px;
+    display: grid;
 	}
 
 	.navbar a {
@@ -1092,17 +1240,85 @@ a:-webkit-any-link {
 	}
 
 	.dropdown .dropbtn {
-	    font-size: 26px;
+	  font-size: 26px;
 	}
 
-	footer {
-		letter-spacing: 2px;
-	}
+  #home-tab {
+    -webkit-order: -3;
+  }
+
+  #about-tab {
+    -webkit-order: -2;
+  }
+
+  #accomod-tab {
+    -webkit-order: -1;
+  }
+
+  #services-tab {
+    margin-left: 44px;
+    -webkit-order: 0;
+  }
+
+  #contact-tab {
+    -webkit-order: 1;
+  }
+
+  #showcase h1 {
+    line-height: 1.2em;
+    letter-spacing: 1.3px;
+    color: #000000;
+  }
+
+  .header-title-about-0 {
+    font-size: 25px;
+  }
+
+  #jk2 {
+    padding-top: 126px;
+  }
+
+  .info-title-sub-grey, .info-title-sub-pink, .info-title-sub-green {
+    margin-left: 285px;
+  }
+
+  .header-title-about {
+     padding-left: 326px;
+  }
+
+  .header-title-about-3 {
+    margin-left: 300px;
+    line-height: 0.85em;
+    letter-spacing: 1.5px;
+  }
+
+  .ptext .trans {
+   letter-spacing: -2px;
+   line-height: 1.9em;
+   padding: 8px;
+   font-size: 34px;
+  }
+
+  .pm-book {
+    max-width: 277px;
+    margin-top: 221px;
+    margin-left: 73px;
+    margin-bottom: 26px;
+  }
+
+  #boxes .box {
+    width: -1px !important;
+  }
+
+  footer {
+   line-height: 1.8em;
+   letter-spacing: 1.5px;
+ }
 }
 
 /* Tablet 800px and 1023px */
 
-@media screen and (max-width: 800px) and (min-width: 768px) {
+@media screen and (max-width: 800px) and (min-width: 781px) {
 	.container {
 	 width: 86%;
 	}
@@ -1113,12 +1329,22 @@ a:-webkit-any-link {
 		margin-left: 106px;
 	}
 
+  #showcase h1 {
+    line-height: 1em;
+    margin-top: 148px;
+  }
+
 	.navbar {
 		margin-top: 132px;
-		margin-left: -339px;
-	  margin-right: 55px;
+    margin-left: -345px;
+    margin-right: 214px;
 		display: grid;
 	}
+
+  #showcase h1 {
+    line-height: 1em;
+    margin-top: 148px;
+  }
 
 	.navbar a {
 	 font-size: 29px;
@@ -1128,21 +1354,47 @@ a:-webkit-any-link {
 	    font-size: 29px;
 	}
 
+  #home-tab {
+    -webkit-order: -3;
+  }
+
+  #about-tab {
+    -webkit-order: -2;
+  }
+
+  #accomod-tab {
+    -webkit-order: -1;
+  }
+
+  #services-tab {
+    margin-left: 52px;
+    -webkit-order: 0;
+  }
+
+  #contact-tab {
+    -webkit-order: 1;
+  }
+
 	footer {
 		letter-spacing: 7px;
 	}
 }
 
 
-/* laptop 801px to 1024px */
+/* Ipad Mini 2 801px to 1024px */
 
 @media screen and (max-width: 1024px) and (min-width: 801px) {
  .container {
   width: 97%;
 }
 	#ypip-logo-img {
-		width: 394px;
+		width: 442px;
 	}
+
+  #showcase h1 {
+    line-height: 1em;
+    margin-top: 148px;
+  }
 
 	.navbar a {
 		padding: 13px 5px;
