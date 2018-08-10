@@ -756,7 +756,7 @@ footer #link-k:hover {
     color: #fed111 !important;
 }
 
-.fa-github, .fa-facebook, .fa-meetup, .fa-twitter, .fa-linkedin, .fa-youtube {
+.fa-github, .fa-facebook, .fa-meetup, .fa-twitter, .fa-linkedin, .fa-youtube, .fa-user {
    color: #ffffff;
 }
 
@@ -1471,4 +1471,8 @@ a:-webkit-any-link {
     text-align: center;
     line-height: 1em;
   }
+}
+
+form br {
+  display: none;
 }
