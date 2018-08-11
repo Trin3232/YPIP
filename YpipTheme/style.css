@@ -779,6 +779,22 @@ a:-webkit-any-link {
     width: 92%;
  }
 
+ #jk1 {
+    width: 100%;
+    margin-left: -78px;
+}
+
+ #pic-info {
+    margin-bottom: -7px;
+    border-bottom: 10px solid #80867c;
+    display: inline-block;
+}
+
+ .box-info {
+    width: 83%;
+    float: left;
+}
+
  #showcase h1 {
    line-height: 1.2em;
    letter-spacing: 1.3px;
@@ -787,11 +803,52 @@ a:-webkit-any-link {
 
  .header-title-about-0 {
    font-size: 25px;
+   margin-left: 82px;
+   margin-bottom: 23px;
  }
 
+ .about-article {
+    float: none;
+    width: 100%;
+}
+
  #jk2 {
-   padding-top: 126px;
- }
+    width: 100%;
+    padding-top: 8px;
+    float: none;
+}
+
+.about-article-2 {
+    float: none;
+    width: 100%
+}
+
+ #boxes .box {
+    width: 90%;
+}
+
+ .header-title-about-2 {
+    padding-left: 79px;
+}
+
+ article#main-coloumn {
+    float: none;
+    width: 111%;
+    margin-left: -36px;
+}
+
+ aside#sidebar {
+    float: right;
+    width: 100%;
+    margin-top: -31px;
+}
+
+ ul#contact-services-2 li {
+    list-style-type: none;
+    margin-left: -50px;
+    line-height: 3em;
+    word-spacing: -1.5px;
+}
 
  .info-title-sub-grey, .info-title-sub-pink, .info-title-sub-green {
    margin-left: 80px;
@@ -802,8 +859,10 @@ a:-webkit-any-link {
 }
 
  .header-title-about-3 {
-   margin-left: 92px;
- }
+   margin-left: 7px;
+   text-align: center;
+   line-height: 1em;
+}
 
  .pm-book {
    max-width: 209px;
@@ -870,13 +929,83 @@ a:-webkit-any-link {
 
 @media screen and (max-width: 360px) and (min-width: 358px) {
   #ypip-logo-img {
-		width: 305px;
+		width: 296px;
   }
 
 	.container {
  		width: 86%;
   }
 
+  #jk1 {
+     width: 100%;
+     margin-left: -78px;
+ }
+
+  #pic-info {
+     margin-bottom: -7px;
+     border-bottom: 10px solid #80867c;
+     display: inline-block;
+ }
+
+  .box-info {
+     width: 83%;
+     float: left;
+ }
+
+ #showcase h1 {
+   line-height: 1.2em;
+   letter-spacing: 1.3px;
+   color: #000000;
+ }
+
+ .header-title-about-0 {
+   font-size: 25px;
+   margin-left: 82px;
+   margin-bottom: 23px;
+ }
+
+ .about-article {
+    float: none;
+    width: 100%;
+}
+
+ #jk2 {
+    width: 100%;
+    padding-top: 8px;
+    float: none;
+}
+
+.about-article-2 {
+    float: none;
+    width: 100%
+}
+
+ #boxes .box {
+    width: 90%;
+}
+
+ .header-title-about-2 {
+    padding-left: 100px;
+}
+
+ article#main-coloumn {
+    float: none;
+    width: 111%;
+    margin-left: -36px;
+}
+
+ aside#sidebar {
+    float: right;
+    width: 100%;
+    margin-top: -31px;
+}
+
+ ul#contact-services-2 li {
+    list-style-type: none;
+    margin-left: -50px;
+    line-height: 3em;
+    word-spacing: -1.5px;
+}
   .navbar {
  		margin-top: 4px;
  		margin-left: -251px;
@@ -928,10 +1057,6 @@ a:-webkit-any-link {
     font-size: 25px;
   }
 
-  #jk2 {
-    padding-top: 126px;
-  }
-
   .info-title-sub-grey, .info-title-sub-pink, .info-title-sub-green {
     margin-left: 80px;
   }
@@ -941,7 +1066,9 @@ a:-webkit-any-link {
  }
 
   .header-title-about-3 {
-    margin-left: 107px;
+    margin-left: 9px;
+    text-align: center;
+    line-height: 1.3em;
   }
 
   .ptext .trans {
@@ -954,7 +1081,7 @@ a:-webkit-any-link {
   .pm-book {
     max-width: 239px;
     margin-top: 10px;
-    margin-left: 39px;
+    margin-left: 31px;
     margin-bottom: 26px;
   }
 
@@ -975,6 +1102,77 @@ a:-webkit-any-link {
 	.container {
  		width: 86%;
   }
+
+  #jk1 {
+     width: 100%;
+     margin-left: -78px;
+ }
+
+  #pic-info {
+     margin-bottom: -7px;
+     border-bottom: 10px solid #80867c;
+     display: inline-block;
+ }
+
+  .box-info {
+     width: 83%;
+     float: left;
+ }
+
+ #showcase h1 {
+   line-height: 1.2em;
+   letter-spacing: 1.3px;
+   color: #000000;
+ }
+
+ .header-title-about-0 {
+   font-size: 25px;
+   margin-left: 95px;
+   margin-bottom: 23px;
+ }
+
+ .about-article {
+    float: none;
+    width: 100%;
+}
+
+ #jk2 {
+    width: 100%;
+    padding-top: 8px;
+    float: none;
+}
+
+.about-article-2 {
+    float: none;
+    width: 100%
+}
+
+ #boxes .box {
+    width: 90%;
+}
+
+ .header-title-about-2 {
+    padding-left: 100px;
+}
+
+ article#main-coloumn {
+    float: none;
+    width: 111%;
+    margin-left: -36px;
+}
+
+ aside#sidebar {
+    float: right;
+    width: 100%;
+    margin-top: -31px;
+}
+
+ ul#contact-services-2 li {
+    list-style-type: none;
+    margin-left: -50px;
+    line-height: 3em;
+    word-spacing: -1.5px;
+}
 
   .navbar {
  		margin-top: 132px;
@@ -1027,10 +1225,6 @@ a:-webkit-any-link {
     font-size: 25px;
   }
 
-  #jk2 {
-    padding-top: 126px;
-  }
-
   .info-title-sub-grey, .info-title-sub-pink, .info-title-sub-green {
     margin-left: 80px;
   }
@@ -1040,7 +1234,9 @@ a:-webkit-any-link {
  }
 
   .header-title-about-3 {
-    margin-left: 107px;
+    margin-left: 7px;
+    text-align: center;
+    line-height: 1.2em;
   }
 
   .ptext .trans {
@@ -1068,6 +1264,77 @@ a:-webkit-any-link {
 @media screen and (max-width: 425px) and (min-width: 385px) {
  #ypip-logo-img {
 	width: 368px;
+}
+
+#jk1 {
+   width: 100%;
+   margin-left: -78px;
+}
+
+#pic-info {
+   margin-bottom: -7px;
+   border-bottom: 10px solid #80867c;
+   display: inline-block;
+}
+
+.box-info {
+   width: 83%;
+   float: left;
+}
+
+#showcase h1 {
+ line-height: 1.2em;
+ letter-spacing: 1.3px;
+ color: #000000;
+}
+
+.header-title-about-0 {
+ font-size: 25px;
+ margin-left: 125px;
+ margin-bottom: 23px;
+}
+
+.about-article {
+  float: none;
+  width: 100%;
+}
+
+#jk2 {
+  width: 100%;
+  padding-top: 8px;
+  float: none;
+}
+
+.about-article-2 {
+  float: none;
+  width: 100%
+}
+
+#boxes .box {
+  width: 90%;
+}
+
+.header-title-about-2 {
+  padding-left: 138px;
+}
+
+article#main-coloumn {
+  float: none;
+  width: 109%;
+  margin-left: -36px;
+}
+
+aside#sidebar {
+  float: right;
+  width: 100%;
+  margin-top: -31px;
+}
+
+ul#contact-services-2 li {
+  list-style-type: none;
+  margin-left: -50px;
+  line-height: 3em;
+  word-spacing: -1.5px;
 }
 
  .navbar {
@@ -1104,12 +1371,8 @@ a:-webkit-any-link {
     font-size: 25px;
   }
 
-  #jk2 {
-    padding-top: 126px;
-  }
-
   .info-title-sub-grey, .info-title-sub-pink, .info-title-sub-green {
-    margin-left: 127px;
+    margin-left: 109px;
   }
 
   .header-title-about {
@@ -1117,7 +1380,9 @@ a:-webkit-any-link {
   }
 
   .header-title-about-3 {
-    margin-left: 133px;
+    margin-left: 7px;
+    text-align: center;
+    line-height: 1.2em;
   }
 
   #home-tab {
@@ -1172,6 +1437,81 @@ a:-webkit-any-link {
 		width: 71%;
 	}
 
+  #jk1 {
+     width: 100%;
+     margin-left: -78px;
+  }
+
+  .short-info-h2 {
+    margin-left: 80px;
+ }
+
+  #pic-info {
+     margin-bottom: -7px;
+     border-bottom: 10px solid #80867c;
+     display: inline-block;
+  }
+
+  .box-info {
+     width: 83%;
+     float: left;
+  }
+
+  #showcase h1 {
+   line-height: 1.2em;
+   letter-spacing: 1.3px;
+   color: #000000;
+  }
+
+  .header-title-about-0 {
+   font-size: 25px;
+   margin-left: 125px;
+   margin-bottom: 23px;
+  }
+
+  .about-article {
+    float: none;
+    width: 100%;
+  }
+
+  #jk2 {
+    width: 100%;
+    padding-top: 8px;
+    float: none;
+  }
+
+  .about-article-2 {
+    float: none;
+    width: 100%
+  }
+
+  #boxes .box {
+    width: 90%;
+  }
+
+  .header-title-about-2 {
+    padding-left: 138px;
+  }
+
+  article#main-coloumn {
+    float: none;
+    width: 109%;
+    margin-left: -36px;
+  }
+
+  aside#sidebar {
+    float: right;
+    width: 100%;
+    margin-top: -31px;
+  }
+
+  ul#contact-services-2 li {
+    list-style-type: none;
+    margin-left: -50px;
+    line-height: 3em;
+    word-spacing: -1.5px;
+  }
+
  .navbar {
 	margin-top: 132px;
 	margin-left: -302px;
@@ -1186,6 +1526,30 @@ a:-webkit-any-link {
 	.dropdown .dropbtn {
 		font-size: 28px;
 	}
+
+  #showcase h1 {
+    line-height: 1.2em;
+    letter-spacing: 1.3px;
+    color: #000000;
+  }
+
+  .header-title-about-0 {
+    font-size: 25px;
+  }
+
+  .info-title-sub-grey, .info-title-sub-pink, .info-title-sub-green {
+    margin-left: 109px;
+  }
+
+  .header-title-about {
+     padding-left: 208px;
+  }
+
+  .header-title-about-3 {
+    margin-left: 7px;
+    text-align: center;
+    line-height: 1.2em;
+  }
 
   #home-tab {
     -webkit-order: -3;
@@ -1212,6 +1576,13 @@ a:-webkit-any-link {
 		 letter-spacing: 0px;
 	}
 
+  .pm-book {
+    max-width: 239px;
+    margin-top: 10px;
+    margin-left: 73px;
+    margin-bottom: 26px;
+  }
+
 	 footer {
 		line-height: 1.8em;
 		letter-spacing: 1.5px;
@@ -1227,6 +1598,82 @@ a:-webkit-any-link {
 		height: 104px;
 		margin-left: 100px;
 	}
+
+  #jk1 {
+     width: 100%;
+     margin-left: -78px;
+  }
+
+  .short-info-h2 {
+    margin-left: 80px;
+ }
+
+  #pic-info {
+     margin-bottom: -7px;
+     border-bottom: 10px solid #80867c;
+     display: inline-block;
+  }
+
+  .box-info {
+     width: 83%;
+     float: left;
+  }
+
+  #showcase h1 {
+   line-height: 1.2em;
+   letter-spacing: 1.3px;
+   color: #000000;
+  }
+
+  .header-title-about-0 {
+   font-size: 25px;
+   margin-left: 295px;
+   margin-bottom: 23px;
+  }
+
+  .about-article {
+    float: none;
+    width: 100%;
+  }
+
+  #jk2 {
+    width: 100%;
+    padding-top: 8px;
+    float: none;
+    height: 100vh;
+  }
+
+  .about-article-2 {
+    float: none;
+    width: 100%
+  }
+
+  #boxes .box {
+    width: 98% !important;
+  }
+
+  .header-title-about-2 {
+    padding-left: 283px;
+  }
+
+  article#main-coloumn {
+    float: none;
+    width: 105%;
+    margin-left: -36px;
+  }
+
+  aside#sidebar {
+    float: right;
+    width: 100%;
+    margin-top: -31px;
+  }
+
+  ul#contact-services-2 li {
+    list-style-type: none;
+    margin-left: 149px;
+    line-height: 3em;
+    word-spacing: 3.5px;
+  }
 
 	.navbar {
     margin-top: 132px;
@@ -1274,10 +1721,6 @@ a:-webkit-any-link {
     font-size: 25px;
   }
 
-  #jk2 {
-    padding-top: 126px;
-  }
-
   .info-title-sub-grey, .info-title-sub-pink, .info-title-sub-green {
     margin-left: 285px;
   }
@@ -1287,7 +1730,7 @@ a:-webkit-any-link {
   }
 
   .header-title-about-3 {
-    margin-left: 300px;
+    margin-left: 88px;
     line-height: 0.85em;
     letter-spacing: 1.5px;
   }
@@ -1301,14 +1744,18 @@ a:-webkit-any-link {
 
   .pm-book {
     max-width: 277px;
-    margin-top: 221px;
-    margin-left: 73px;
+    margin-top: 6px;
+    margin-left: 195px;
     margin-bottom: 26px;
   }
 
-  #boxes .box {
-    width: -1px !important;
+  label {
+    display: block;
   }
+
+  .contact-title-form {
+     margin-left: 188px;
+   }
 
   footer {
    line-height: 1.8em;
@@ -1316,7 +1763,7 @@ a:-webkit-any-link {
  }
 }
 
-/* Tablet 800px and 1023px */
+/* Tablet 781px and 800px */
 
 @media screen and (max-width: 800px) and (min-width: 781px) {
 	.container {
@@ -1329,9 +1776,80 @@ a:-webkit-any-link {
 		margin-left: 106px;
 	}
 
+  #jk1 {
+     width: 100%;
+     margin-left: -78px;
+  }
+
+  .short-info-h2 {
+    margin-left: 80px;
+ }
+
+  #pic-info {
+     margin-bottom: -7px;
+     border-bottom: 10px solid #80867c;
+     display: inline-block;
+  }
+
+  .box-info {
+     width: 83%;
+     float: left;
+  }
+
   #showcase h1 {
-    line-height: 1em;
-    margin-top: 148px;
+   line-height: 1.2em;
+   letter-spacing: 1.3px;
+   color: #000000;
+  }
+
+  .header-title-about-0 {
+   font-size: 25px;
+   margin-left: 295px;
+   margin-bottom: 23px;
+  }
+
+  .about-article {
+    float: none;
+    width: 100%;
+  }
+
+  #jk2 {
+    width: 100%;
+    padding-top: 8px;
+    float: none;
+    height: 100vh;
+  }
+
+  .about-article-2 {
+    float: none;
+    width: 100%
+  }
+
+  #boxes .box {
+    width: 98% !important;
+  }
+
+  .header-title-about-2 {
+    padding-left: 283px;
+  }
+
+  article#main-coloumn {
+    float: none;
+    width: 105%;
+    margin-left: -36px;
+  }
+
+  aside#sidebar {
+    float: right;
+    width: 100%;
+    margin-top: -31px;
+  }
+
+  ul#contact-services-2 li {
+    list-style-type: none;
+    margin-left: 149px;
+    line-height: 3em;
+    word-spacing: 3.5px;
   }
 
 	.navbar {
@@ -1341,11 +1859,6 @@ a:-webkit-any-link {
 		display: grid;
 	}
 
-  #showcase h1 {
-    line-height: 1em;
-    margin-top: 148px;
-  }
-
 	.navbar a {
 	 font-size: 29px;
 	}
@@ -1353,6 +1866,11 @@ a:-webkit-any-link {
 	.dropdown .dropbtn {
 	    font-size: 29px;
 	}
+
+  #showcase h1 {
+    line-height: 1em;
+    margin-top: 148px;
+  }
 
   #home-tab {
     -webkit-order: -3;
@@ -1375,8 +1893,55 @@ a:-webkit-any-link {
     -webkit-order: 1;
   }
 
+  #showcase h1 {
+    line-height: 1.2em;
+    letter-spacing: 1.3px;
+    color: #000000;
+  }
+
+  .header-title-about-0 {
+    font-size: 25px;
+  }
+
+  .info-title-sub-grey, .info-title-sub-pink, .info-title-sub-green {
+    margin-left: 285px;
+  }
+
+  .header-title-about {
+     padding-left: 326px;
+  }
+
+  .header-title-about-3 {
+    margin-left: 88px;
+    line-height: 0.85em;
+    letter-spacing: 1.5px;
+  }
+
+  .ptext .trans {
+   letter-spacing: -2px;
+   line-height: 1.9em;
+   padding: 8px;
+   font-size: 34px;
+  }
+
+  .pm-book {
+    max-width: 277px;
+    margin-top: 6px;
+    margin-left: 195px;
+    margin-bottom: 26px;
+  }
+
+  label {
+    display: block;
+  }
+
+  .contact-title-form {
+     margin-left: 188px;
+   }
+
 	footer {
-		letter-spacing: 7px;
+		letter-spacing: 9px;
+    line-height: 1.6em;
 	}
 }
 
@@ -1404,6 +1969,52 @@ a:-webkit-any-link {
 		padding: 14px 14px;
 	}
 
+  .box-info {
+    width: 31%;
+   }
+
+  #jk1 {
+    float: left;
+    padding-left: 0px;
+    height: 146.5vh;
+    width: 65vw;
+  }
+
+  .short-info {
+    margin-top: -13px;
+  }
+
+  .short-info-h2 {
+    padding-top: 0px;
+  }
+
+  #jk2 {
+    height: 79.5vh;
+    width: 45vw;
+   }
+
+  #boxes .box {
+    width: 22%;
+  }
+
+  .header-title-about {
+    padding-left: 16px;
+  }
+
+  .about-article-2 {
+    width: 50%;
+  }
+
+  .pm-book {
+    max-width: 266px;
+    margin-top: 90px;
+    margin-left: 135px;
+   }
+
+  ul#contact-services-2 li {
+    margin-left: -51px;
+ }
+
 	footer {
 		font-size: 18px !important;
 	}
@@ -1415,6 +2026,34 @@ a:-webkit-any-link {
 	.container {
 	  width: 87%;
 	}
+
+  .short-info {
+    margin-top: -21px;
+  }
+
+  .short-info-h2 {
+    padding-top: 0px;
+  }
+
+  #jk2 {
+    float: right;
+    padding-top: 133px;
+    margin: auto;
+    height: 79.5vh;
+    width: 36vw;
+  }
+
+  .header-title-about {
+    padding-left: 83px;
+  }
+
+  .about-article-2 {
+    width: 50%;
+  }
+
+  .pm-book {
+    max-width: 236px;
+   }
 }
 
 /*ERROR PAGE*/

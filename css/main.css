@@ -380,7 +380,8 @@ a.e-grey:hover {
 .ptext .trans {
   background-color: #80867c;
   color: #ffffff;
-  padding: 22px;
+  padding-top: 22px;
+  padding-bottom: 22px;
   opacity: 0.75;
 }
 
@@ -1318,7 +1319,7 @@ a:-webkit-any-link {
 
 article#main-coloumn {
   float: none;
-  width: 111%;
+  width: 109%;
   margin-left: -36px;
 }
 
@@ -1668,9 +1669,9 @@ ul#contact-services-2 li {
 
   ul#contact-services-2 li {
     list-style-type: none;
-    margin-left: -50px;
+    margin-left: 149px;
     line-height: 3em;
-    word-spacing: -1.5px;
+    word-spacing: 3.5px;
   }
 
 	.navbar {
@@ -1747,13 +1748,21 @@ ul#contact-services-2 li {
     margin-bottom: 26px;
   }
 
+  label {
+    display: block;
+  }
+
+  .contact-title-form {
+     margin-left: 188px;
+   }
+
   footer {
    line-height: 1.8em;
    letter-spacing: 1.5px;
  }
 }
 
-/* Tablet 800px and 1023px */
+/* Tablet 781px and 800px */
 
 @media screen and (max-width: 800px) and (min-width: 781px) {
 	.container {
@@ -1765,6 +1774,82 @@ ul#contact-services-2 li {
 		height: 104px;
 		margin-left: 106px;
 	}
+
+  #jk1 {
+     width: 100%;
+     margin-left: -78px;
+  }
+
+  .short-info-h2 {
+    margin-left: 80px;
+ }
+
+  #pic-info {
+     margin-bottom: -7px;
+     border-bottom: 10px solid #80867c;
+     display: inline-block;
+  }
+
+  .box-info {
+     width: 83%;
+     float: left;
+  }
+
+  #showcase h1 {
+   line-height: 1.2em;
+   letter-spacing: 1.3px;
+   color: #000000;
+  }
+
+  .header-title-about-0 {
+   font-size: 25px;
+   margin-left: 295px;
+   margin-bottom: 23px;
+  }
+
+  .about-article {
+    float: none;
+    width: 100%;
+  }
+
+  #jk2 {
+    width: 100%;
+    padding-top: 8px;
+    float: none;
+    height: 100vh;
+  }
+
+  .about-article-2 {
+    float: none;
+    width: 100%
+  }
+
+  #boxes .box {
+    width: 98% !important;
+  }
+
+  .header-title-about-2 {
+    padding-left: 283px;
+  }
+
+  article#main-coloumn {
+    float: none;
+    width: 105%;
+    margin-left: -36px;
+  }
+
+  aside#sidebar {
+    float: right;
+    width: 100%;
+    margin-top: -31px;
+  }
+
+  ul#contact-services-2 li {
+    list-style-type: none;
+    margin-left: 149px;
+    line-height: 3em;
+    word-spacing: 3.5px;
+  }
 
 	.navbar {
 		margin-top: 132px;
@@ -1807,8 +1892,55 @@ ul#contact-services-2 li {
     -webkit-order: 1;
   }
 
+  #showcase h1 {
+    line-height: 1.2em;
+    letter-spacing: 1.3px;
+    color: #000000;
+  }
+
+  .header-title-about-0 {
+    font-size: 25px;
+  }
+
+  .info-title-sub-grey, .info-title-sub-pink, .info-title-sub-green {
+    margin-left: 285px;
+  }
+
+  .header-title-about {
+     padding-left: 326px;
+  }
+
+  .header-title-about-3 {
+    margin-left: 88px;
+    line-height: 0.85em;
+    letter-spacing: 1.5px;
+  }
+
+  .ptext .trans {
+   letter-spacing: -2px;
+   line-height: 1.9em;
+   padding: 8px;
+   font-size: 34px;
+  }
+
+  .pm-book {
+    max-width: 277px;
+    margin-top: 6px;
+    margin-left: 195px;
+    margin-bottom: 26px;
+  }
+
+  label {
+    display: block;
+  }
+
+  .contact-title-form {
+     margin-left: 188px;
+   }
+
 	footer {
-		letter-spacing: 7px;
+		letter-spacing: 9px;
+    line-height: 1.6em;
 	}
 }
 
@@ -1836,6 +1968,52 @@ ul#contact-services-2 li {
 		padding: 14px 14px;
 	}
 
+  .box-info {
+    width: 31%;
+   }
+
+  #jk1 {
+    float: left;
+    padding-left: 0px;
+    height: 146.5vh;
+    width: 65vw;
+  }
+
+  .short-info {
+    margin-top: -13px;
+  }
+
+  .short-info-h2 {
+    padding-top: 0px;
+  }
+
+  #jk2 {
+    height: 79.5vh;
+    width: 45vw;
+   }
+
+  #boxes .box {
+    width: 22%;
+  }
+
+  .header-title-about {
+    padding-left: 16px;
+  }
+
+  .about-article-2 {
+    width: 50%;
+  }
+
+  .pm-book {
+    max-width: 266px;
+    margin-top: 90px;
+    margin-left: 135px;
+   }
+
+  ul#contact-services-2 li {
+    margin-left: -51px;
+ }
+
 	footer {
 		font-size: 18px !important;
 	}
@@ -1847,6 +2025,34 @@ ul#contact-services-2 li {
 	.container {
 	  width: 87%;
 	}
+
+  .short-info {
+    margin-top: -21px;
+  }
+
+  .short-info-h2 {
+    padding-top: 0px;
+  }
+
+  #jk2 {
+    float: right;
+    padding-top: 133px;
+    margin: auto;
+    height: 79.5vh;
+    width: 36vw;
+  }
+
+  .header-title-about {
+    padding-left: 83px;
+  }
+
+  .about-article-2 {
+    width: 50%;
+  }
+
+  .pm-book {
+    max-width: 236px;
+   }
 }
 
 /*ERROR PAGE*/
