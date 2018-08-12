@@ -915,7 +915,8 @@ a:-webkit-any-link {
  .ptext .trans {
 	letter-spacing: -2px;
   line-height: 1.9em;
-  padding: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
  }
 
   footer {
@@ -1074,7 +1075,8 @@ a:-webkit-any-link {
   .ptext .trans {
    letter-spacing: -2px;
    line-height: 1.9em;
-   padding: 8px;
+   padding-top: 8px;
+   padding-bottom: 8px;
    font-size: 34px;
   }
 
@@ -1242,7 +1244,8 @@ a:-webkit-any-link {
   .ptext .trans {
    letter-spacing: -2px;
    line-height: 1.9em;
-   padding: 8px;
+   padding-top: 8px;
+   padding-bottom: 8px;
    font-size: 34px;
   }
 
@@ -1409,7 +1412,8 @@ ul#contact-services-2 li {
   .ptext .trans {
    letter-spacing: -2px;
    line-height: 1.9em;
-   padding: 8px;
+   padding-top: 8px;
+   padding-bottom: 8px;
    font-size: 34px;
   }
 
@@ -1738,7 +1742,8 @@ ul#contact-services-2 li {
   .ptext .trans {
    letter-spacing: -2px;
    line-height: 1.9em;
-   padding: 8px;
+   padding-top: 8px;
+   padding-bottom: 8px;
    font-size: 34px;
   }
 
@@ -1920,7 +1925,8 @@ ul#contact-services-2 li {
   .ptext .trans {
    letter-spacing: -2px;
    line-height: 1.9em;
-   padding: 8px;
+   padding-top: 8px;
+   padding-bottom: 8px;
    font-size: 34px;
   }
 
