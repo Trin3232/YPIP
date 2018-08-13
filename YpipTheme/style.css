@@ -2062,6 +2062,54 @@ ul#contact-services-2 li {
    }
 }
 
+
+/* Full HD Screen 1920px */
+
+@media screen and (max-width: 1920px) {
+
+  .panel-grey, .about-gr .panel-green, .about-gre .panel-pink, .about-pi {
+    padding: 40px;
+  }
+
+  #jk2 {
+    float: right;
+    padding-top: 134px;
+    height: 60.5vh;
+    width: 28vw;
+    padding-right: 148px;
+  }
+
+  #boxes {
+    padding-bottom: 153px;
+  }
+
+  .header-title-about {
+    padding-left: 97px;
+  }
+
+   .pm-book {
+    max-width: 255px;
+    margin-left: 294px;
+  }
+
+  .panel-green, .affilites .panel-grey, .affilites {
+    padding: 40px;
+  }
+
+  .contact-main {
+    padding-bottom: 145px;
+   }
+
+   ul#contact-services li {
+    padding: 53px;
+  }
+
+  footer {
+    border-top: 10px solid #80867c;
+  }
+
+}
+
 /*ERROR PAGE*/
 
 @media screen and (max-width: 375px) and (min-width: 320px) {
