@@ -1,3 +1,3 @@
 # YPIP
-Modernisation of Site 
-Project Completed 11.08.2018
+Modernisation of Site
+Project Completed 13.08.2018

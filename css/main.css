@@ -2063,7 +2063,7 @@ ul#contact-services-2 li {
 
 /* Full HD Screen 1920px */
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1920px) and (min-width: 1281px) {
 
   .panel-grey, .about-gr .panel-green, .about-gre .panel-pink, .about-pi {
     padding: 40px;
@@ -2102,10 +2102,9 @@ ul#contact-services-2 li {
     padding: 53px;
   }
 
-  footer {
+  /* footer, .about-foot footer, .accomod-foot {
     border-top: 10px solid #80867c;
-  }
-
+  } */
 }
 
 /*ERROR PAGE*/
