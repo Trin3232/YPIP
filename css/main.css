@@ -42,6 +42,7 @@ i:hover {
 
 a{
   color: #ffffff !important;
+  text-decoration: none;
 }
 
 /******************************************
@@ -55,6 +56,26 @@ a{
   margin:auto;
   overflow:hidden;
 }
+
+.container-head {
+  width: 90%;
+  margin:auto;
+  overflow:hidden;
+}
+
+.container-main {
+  min-height: 55vh;
+}
+
+/*
+.container-main a:hover {
+	color: blue !important;
+}
+
+.container-main a {
+	color: black !important;
+}
+*/
 
 .main {
   width: 100%;
@@ -771,7 +792,7 @@ a:-webkit-any-link {
 
 @media screen and (max-width: 320px) {
   #ypip-logo-img {
-		width: 280px;
+		width: 274px;
  }
 
  .container {
@@ -1007,7 +1028,7 @@ a:-webkit-any-link {
     word-spacing: -1.5px;
 }
   .navbar {
- 		margin-top: 4px;
+ 		margin-top: 106px;
  		margin-left: -251px;
  	  margin-right: 67px;
     margin-bottom: -17px;
@@ -1097,7 +1118,7 @@ a:-webkit-any-link {
 
 @media screen and (max-width: 384px) and (min-width: 375px) {
   #ypip-logo-img {
-		width: 305px;
+		width: 312px;
   }
 
 	.container {
@@ -1138,8 +1159,9 @@ a:-webkit-any-link {
 }
 
  #jk2 {
-    width: 100%;
+    width: 98%;
     padding-top: 8px;
+    padding-left: 4px;
     float: none;
 }
 
@@ -1821,7 +1843,7 @@ ul#contact-services-2 li {
     width: 100%;
     padding-top: 8px;
     float: none;
-    height: 100vh;
+    height: 72vh;
   }
 
   .about-article-2 {
@@ -1954,7 +1976,7 @@ ul#contact-services-2 li {
 /* Ipad Mini 2 801px to 1024px */
 
 @media screen and (max-width: 1024px) and (min-width: 801px) {
- .container {
+ .container-head {
   width: 97%;
 }
 	#ypip-logo-img {
@@ -1981,7 +2003,7 @@ ul#contact-services-2 li {
   #jk1 {
     float: left;
     padding-left: 0px;
-    height: 146.5vh;
+    height: 86.5vh;
     width: 65vw;
   }
 
@@ -1993,9 +2015,15 @@ ul#contact-services-2 li {
     padding-top: 0px;
   }
 
+  .about-article {
+    float: left;
+    width: 50%;
+    margin-bottom: 194px;
+  }
+
   #jk2 {
-    height: 79.5vh;
-    width: 45vw;
+    height: 49.5vh;
+    width: 42vw;
    }
 
   #boxes .box {

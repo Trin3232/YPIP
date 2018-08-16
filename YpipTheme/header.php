@@ -37,7 +37,7 @@
 
 <body>
 	<header>
-		<div class="container">
+		<div class="container-head">
 			<!--Company Logo Jpeg -->
 			<a href="index.html">
 				<img id="ypip-logo-img" src="https://www.yourpartnerinproperty.co.uk/wp-content/uploads/2018/06/ypip-logo-2.jpg" alt="ypip company logo" title="Your Partner In Property">
